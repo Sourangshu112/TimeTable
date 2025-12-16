@@ -1,45 +1,4 @@
 batches: dict = {
-    #id: [course, yr, dept, room,[interdept split]]
-
-    1 : ["btech", 1, "ME", "C39", ["A"]],
-    2 : ["btech", 1, "CEE", "C39", ["A"]],
-    3 : ["btech", 1, "FET", "C39", ["A"]],
-    4 : ["btech", 1, "EE", "A39", ["A","B"]],
-    5 : ["btech", 1, "CSE", "D39", ["A","B"]],
-
-    6 : ["btech", 2, "ME", "B203", ["A","B"]],
-    7 : ["btech", 2, "CEE", "C25", ["A","B"]],
-    8 : ["btech", 2, "FET", "D25", ["A"]],
-    9 : ["btech", 2, "EE", "A24", ["A","B"]],
-    10: ["btech", 2, "CSE", "C38", ["A","B"]],
-
-    11: ["btech", 3, "ME", "B112", ["A","B"]],
-    12: ["btech", 3, "CEE", "C26", ["A","B"]],
-    13: ["btech", 3, "FET", "D23", ["A"]],
-    14: ["btech", 3, "EE", "A12", ["A","B"]],
-    15: ["btech", 3, "CSE", "C37", ["A"]],
-
-    16: ["btech", 4, "ME", "B110", ["A"]],
-    17: ["btech", 4, "FET", "D22", ["A"]],
-    18: ["btech", 4, "EE", "A13", ["A","B"]],
-
-    19: ["diploma", 1, "EE+ME+FPT", "D38", ["A","B"]],
-    20: ["diploma", 1, "CST+CE", "C24", ["A","B"]],
-
-    21: ["diploma", 2, "ME", "B204", ["A"]],
-    22: ["diploma", 2, "CE", "C22", ["A"]],
-    23: ["diploma", 2, "FET", "D12", ["A"]],
-    24: ["diploma", 2, "EE", "A35", ["A"]],
-    25: ["diploma", 2, "CST", "D26", ["A"]],
-
-    26: ["diploma", 3, "ME", "B202", ["A"]],
-    27: ["diploma", 3, "CE", "C23", ["A"]],
-    28: ["diploma", 3, "FET", "D24", ["A"]],
-    29: ["diploma", 3, "EE", "A36", ["A"]],
-    30: ["diploma", 3, "CST", "D37", ["A"]],
-}
-
-batches2: dict = {
     #id: [course, yr, dept, room, interdept GROUP]
 
     1 : ["btech", 1, "ME", "A"],
@@ -52,7 +11,7 @@ batches2: dict = {
 
     8 : ["btech", 2, "ME", "A"],
     9 : ["btech", 2, "ME", "B"],
-    10 : ["btech", 2, "CEE", "A"],
+    10: ["btech", 2, "CEE", "A"],
     11: ["btech", 2, "CEE", "B"],
     12: ["btech", 2, "FET", "A"],
     13: ["btech", 2, "EE", "A"],
@@ -85,8 +44,8 @@ batches2: dict = {
     36: ["diploma", 2, "EE", "A"],
     37: ["diploma", 2, "CST", "A"],
 
-    38: ["diploma", 3, "CE", "A"],
-    39: ["diploma", 3, "ME", "A"],
+    38: ["diploma", 3, "ME", "A"],
+    39: ["diploma", 3, "CE", "A"],
     40: ["diploma", 3, "FET", "A"],
     41: ["diploma", 3, "EE", "A"],
     42: ["diploma", 3, "CST", "A"],
@@ -99,6 +58,7 @@ rooms: list = ['C39', 'A39', 'D39', 'B203', 'C25', 'D25', 'A24', 'C38', 'B112', 
 
 
 rooms_mapped: dict = {
+    #room : [list of batches together in the room]
     'C39' : [1,2,3],
     'A39' : [4,5],
     'D39' : [6,7],
@@ -129,14 +89,112 @@ rooms_mapped: dict = {
     'D37' : [42],
 }
 
+teachers: dict = {
+    #id : [name,dept]
+    101 : ['AM','Chemistry'],
+    102 : ['BKT','Mathmatics'],
+    103 : ['SSC','Humanities'],
+    104 : ['RD','Physics'],
+    105 : ['CD','Humanities'],
+    106 : ['AK','Electrical'],
+    107 : ['RRK','Electrical'],
+    108 : ['RK','Electrical'],
+    109 : ['TKD','Electrical'],
+    110 : ['SA','Electrical'],
+    111 : ['AbK','Mechanical'],
+    112 : ['HbM','Mechanical'],
+    113 : ['TrD','Mechanical'],
+    114 : ['NM','Mechanical'],
+    115 : ['RR','Mechanical'],
+    116 : ['SKD','Food'],
+    117 : ['JA','Food'],
+    118 : ['SC','Food'],
+    119 : ['VK','Food'],
+    120 : ['SUD','Computer Science'],
+    121 : ['IW','Computer Science'],
+    122 : ['TKO','Computer Science'],
+    123 : ['SDM','Computer Science'],
+    124 : ['DR','Computer Science'],
+    125 : ['PY','Civil'],
+    126 : ['SB','Civil'],
+    127 : ['HR','Civil'],
+    128 : ['HS','Civil'],
+    129 : ['KY','Civil'],
+    130 : ['SM','Electrical'],
+    131 : ['PM','Electrical'],
+    132 : ['AR','Electrical'],
+    133 : ['Anp','Mechanical'],
+    134 : ['ABD','Food'],
+    135 : ['MAM','Food'],
+    136 : ['SR','Computer Science'],
+    137 : ['BPT','Computer Science'],
+    138 : ['KP','Civil'],
+}
+
 theory: dict = {
-    #id: [batch,subject,hr/week,teacherid]
-    1: ['D38',"Applied Chemistry",3,id]
-    2: ['D38',],
-    3: ['D38',],
-    4: ['D38',],
+    1 : ['D38', 'Applied Chemistry', 3, 101],
+    2 : ['D38', 'Mathematics-I', 3, 102],
+    3 : ['D38', 'Communication Skill in English', 2, 103],
+    4 : ['D38', 'Applied Physics', 3, 104],
+    5 : ['C24', 'Applied Chemistry', 3, 101],
+    6 : ['C24', 'Mathematics-I', 3, 102],
+    7 : ['C24', 'Communication Skill in English', 2, 103],
+    8 : ['C24', 'Applied Physics', 3, 104],
+    9 : ['A35', 'Introduction to Electric Generation System', 3, 106],
+    10: ['A35', 'DC Machines and Transformers', 3, 107],
+    11: ['A35', 'Electrical Circuits', 3, 108],
+    12: ['A35', 'Analog and Digital Electronics', 3, 109],
+    13: ['A35', 'Electrical and Electronics Measurment', 3, 110],
+    14: ['B204', 'Manufactoring Process 1', 3, 111],
+    15: ['B204', 'Mech Eng Drawing', 2, 112],
+    16: ['B204', 'Strength of Material', 3, 113],
+    17: ['B204', 'Thermal Engineering', 3, 114],
+    18: ['B204', 'Mech. Eng. Materials', 3, 115],
+    19: ['D12', 'Fundamental Chemistry', 2, 116],
+    20: ['D12', 'Technology in Food Preservation', 2, 117],
+    21: ['D12', 'Food Microbiology', 2, 117],
+    22: ['D12', 'Engg. Thermodynamics & Chem Kinetics', 2, 118],
+    23: ['D12', 'Unit Operation of Chemical Engineering - I', 3, 119],
+    24: ['D12', 'Chemistry of Food', 2, 116],
+    25: ['D26', 'Computer Programming', 2, 120],
+    26: ['D26', 'Scripting Languages', 2, 121],
+    27: ['D26', 'Data Structure', 3, 122],
+    28: ['D26', 'Computer System Organization', 4, 123],
+    29: ['D26', 'Algorithms', 3, 124],
+    30: ['C22', 'Transotation Engg.', 2, 125],
+    31: ['C22', 'Buliding Construction', 2, 126],
+    32: ['C22', 'Basic Surveying', 3, 127],
+    33: ['C22', 'Mechanics of Material', 3, 126],
+    34: ['C22', 'CE Planning and Drawing', 1, 128],
+    35: ['C22', 'Construction of Materials', 2, 129],
+    36: ['C22', 'Concrete Technology', 2, 128],
+    37: ['A36', 'Industrial Automation & Control ', 3, 130],
+    38: ['A36', 'Building Electrification', 3, 131],
+    39: ['A36', 'Microcontroller and its Application', 3, 132],
+    40: ['A36', 'Solar Power Technologies', 3, 106],
+    41: ['B202', 'Fluid Mechanis and Machinery', 3, 130],
+    42: ['B202', 'Advance Manufactoring Process', 3, 111],
+    43: ['B202', 'Power Engineering', 3, 130],
+    44: ['B202', 'Elective-Automobile Engineering', 2, 113],
+    45: ['B202', 'Elective-Material Handling System', 2, 133],
+    46: ['D24', 'Dairy Technology', 3, 118],
+    47: ['D24', ' Food Biotechnology', 2, 117],
+    48: ['D24', 'Technology of Food IV', 2, 134],
+    49: ['D24', 'Bakery Technology', 3, 117],
+    50: ['D24', 'Food Engineering', 2, 119],
+    51: ['D24', 'Food Safety and Quality Management', 2, 135],
+    52: ['D37', 'Microcontroller and Microprocessor', 3, 136],
+    53: ['D37', 'IOT', 4, 137],
+    54: ['D37', 'Advanced Computer Network', 4, 124],
+    55: ['D37', 'Theory of Automata', 4, 123],
+    56: ['D37', 'Computer Ghraphics', 4, 122],
+    57: ['C23', 'Water Resource Engg.', 2, 129],
+    58: ['C23', 'Traffic Engg Elective', 3, 128],
+    59: ['C23', 'Building Maintenance', 3, 125],
+    60: ['C23', 'Estimate costing and Valuation', 3, 138],
+    61: ['C23', 'Safety Engg and Management in Construction Sector', 2, 129],
 }
 
 practical: dict = {
-
+    #will add later
 }
