@@ -1,4 +1,4 @@
 .tmp.driveupload
 .tmp.drivedownload
 __pycache__
-college_timetable.gsheet
+*.gsheet
