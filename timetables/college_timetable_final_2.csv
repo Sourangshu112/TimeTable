@@ -1,0 +1,73 @@
+Room,Day,S1,S2,S3,S4,S5,S6,S7,S8
+A35,Mon,Electrical and Electronics Measurment (SA),Electrical and Electronics Measurment (SA),Analog and Digital Electronics (TKD),,--- LUNCH ---,,,
+A35,Tue,DC Machines and Transformers (RRK),Electrical Circuits (RK),Introduction to Electric Generation System (AK),Introduction to Electric Generation System (AK),--- LUNCH ---,,,
+A35,Wed,,,,,--- LUNCH ---,,,
+A35,Thu,Analog and Digital Electronics (TKD),Analog and Digital Electronics (TKD),Electrical Circuits (RK),Electrical and Electronics Measurment (SA),--- LUNCH ---,,,
+A35,Fri,Electrical Circuits (RK),DC Machines and Transformers (RRK),DC Machines and Transformers (RRK),,--- LUNCH ---,Introduction to Electric Generation System (AK),,
+
+A36,Mon,,,,,--- LUNCH ---,,,
+A36,Tue,Industrial Automation & Control  (SM),Solar Power Technologies (AK),Microcontroller and its Application (AR),,--- LUNCH ---,Industrial Automation & Control  (SM),Solar Power Technologies (AK),
+A36,Wed,Building Electrification (PM),Microcontroller and its Application (AR),Industrial Automation & Control  (SM),,--- LUNCH ---,,,
+A36,Thu,Microcontroller and its Application (AR),Building Electrification (PM),Building Electrification (PM),,--- LUNCH ---,,,
+A36,Fri,Solar Power Technologies (AK),,,,--- LUNCH ---,,,
+
+B202,Mon,,,,,--- LUNCH ---,,,
+B202,Tue,Elective-Material Handling System (Anp),Elective-Material Handling System (Anp),Elective-Automobile Engineering (TrD),Power Engineering (SM),--- LUNCH ---,,,
+B202,Wed,Power Engineering (SM),Fluid Mechanis and Machinery (SM),Advance Manufactoring Process (AbK),Advance Manufactoring Process (AbK),--- LUNCH ---,,,
+B202,Thu,Advance Manufactoring Process (AbK),,,,--- LUNCH ---,,,
+B202,Fri,Fluid Mechanis and Machinery (SM),,,,--- LUNCH ---,Elective-Automobile Engineering (TrD),Power Engineering (SM),Fluid Mechanis and Machinery (SM)
+
+B204,Mon,Mech. Eng. Materials (RR),Strength of Material (TrD),,,--- LUNCH ---,,,
+B204,Tue,Mech Eng Drawing (HbM),Mech. Eng. Materials (RR),,,--- LUNCH ---,,,
+B204,Wed,Strength of Material (TrD),Thermal Engineering (NM),Mech. Eng. Materials (RR),Mech Eng Drawing (HbM),--- LUNCH ---,,,
+B204,Thu,Thermal Engineering (NM),Manufactoring Process 1 (AbK),Thermal Engineering (NM),Strength of Material (TrD),--- LUNCH ---,Manufactoring Process 1 (AbK),Manufactoring Process 1 (AbK),
+B204,Fri,,,,,--- LUNCH ---,,,
+
+C22,Mon,Basic Surveying (HR),Concrete Technology (HS),CE Planning and Drawing (HS),,--- LUNCH ---,Buliding Construction (SB),,
+C22,Tue,Construction of Materials (KY),Mechanics of Material (SB),Basic Surveying (HR),Mechanics of Material (SB),--- LUNCH ---,,,
+C22,Wed,,,,,--- LUNCH ---,Transotation Engg. (PY),,
+C22,Thu,,,,,--- LUNCH ---,,,
+C22,Fri,Buliding Construction (SB),Basic Surveying (HR),Mechanics of Material (SB),Transotation Engg. (PY),--- LUNCH ---,Construction of Materials (KY),Concrete Technology (HS),
+
+C23,Mon,,,,,--- LUNCH ---,,,
+C23,Tue,Building Maintenance (PY),Building Maintenance (PY),Estimate costing and Valuation (KP),,--- LUNCH ---,,,
+C23,Wed,,,,,--- LUNCH ---,,,
+C23,Thu,Estimate costing and Valuation (KP),Water Resource Engg. (KY),Building Maintenance (PY),Traffic Engg Elective (HS),--- LUNCH ---,,,
+C23,Fri,Traffic Engg Elective (HS),Estimate costing and Valuation (KP),Safety Engg and Management in Construction Sector (KY),Safety Engg and Management in Construction Sector (KY),--- LUNCH ---,Traffic Engg Elective (HS),Water Resource Engg. (KY),
+
+C24,Mon,,,,,--- LUNCH ---,,,
+C24,Tue,,,,,--- LUNCH ---,,,
+C24,Wed,,,,,--- LUNCH ---,,,
+C24,Thu,Applied Physics (RD),Applied Chemistry (AM),Applied Physics (RD),Mathematics-I (BKT),--- LUNCH ---,Applied Chemistry (AM),,
+C24,Fri,Communication Skill in English (SSC),Mathematics-I (BKT),Mathematics-I (BKT),Applied Physics (RD),--- LUNCH ---,Communication Skill in English (SSC),Applied Chemistry (AM),
+
+D12,Mon,,,,,--- LUNCH ---,,,
+D12,Tue,Technology in Food Preservation (JA),Unit Operation of Chemical Engineering - I (VK),Engg. Thermodynamics & Chem Kinetics (SC),Chemistry of Food (SKD),--- LUNCH ---,Engg. Thermodynamics & Chem Kinetics (SC),,
+D12,Wed,Unit Operation of Chemical Engineering - I (VK),,,,--- LUNCH ---,,,
+D12,Thu,Food Microbiology (JA),Fundamental Chemistry (SKD),Fundamental Chemistry (SKD),Unit Operation of Chemical Engineering - I (VK),--- LUNCH ---,,,
+D12,Fri,Chemistry of Food (SKD),,,,--- LUNCH ---,Technology in Food Preservation (JA),Food Microbiology (JA),
+
+D24,Mon, Food Biotechnology (JA),Technology of Food IV (ABD),Technology of Food IV (ABD), Food Biotechnology (JA),--- LUNCH ---,,,
+D24,Tue,Food Safety and Quality Management (MAM),Dairy Technology (SC),Food Engineering (VK),Food Safety and Quality Management (MAM),--- LUNCH ---,,,
+D24,Wed,,,,,--- LUNCH ---,,,
+D24,Thu,Dairy Technology (SC),,,,--- LUNCH ---,Food Engineering (VK),,
+D24,Fri,Bakery Technology (JA),Bakery Technology (JA),Bakery Technology (JA),Dairy Technology (SC),--- LUNCH ---,,,
+
+D26,Mon,Scripting Languages (IW),Scripting Languages (IW),Computer Programming (SUD),,--- LUNCH ---,,,
+D26,Tue,Computer System Organization (SDM),Computer Programming (SUD),Data Structure (TKO),Algorithms (DR),--- LUNCH ---,,,
+D26,Wed,,,,,--- LUNCH ---,,,
+D26,Thu,Algorithms (DR),Computer System Organization (SDM),Algorithms (DR),Data Structure (TKO),--- LUNCH ---,,,
+D26,Fri,,,,,--- LUNCH ---,Computer System Organization (SDM),Computer System Organization (SDM),Data Structure (TKO)
+
+D37,Mon,Theory of Automata (SDM),Advanced Computer Network (DR),IOT (BPT),IOT (BPT),--- LUNCH ---,,,
+D37,Tue,,,,,--- LUNCH ---,Advanced Computer Network (DR),Advanced Computer Network (DR),Theory of Automata (SDM)
+D37,Wed,IOT (BPT),IOT (BPT),Microcontroller and Microprocessor (SR),Theory of Automata (SDM),--- LUNCH ---,Computer Ghraphics (TKO),Computer Ghraphics (TKO),Advanced Computer Network (DR)
+D37,Thu,Microcontroller and Microprocessor (SR),,,,--- LUNCH ---,,,
+D37,Fri,Computer Ghraphics (TKO),Computer Ghraphics (TKO),Theory of Automata (SDM),Microcontroller and Microprocessor (SR),--- LUNCH ---,,,
+
+D38,Mon,Applied Chemistry (AM),Communication Skill in English (SSC),Applied Chemistry (AM),,--- LUNCH ---,,,
+D38,Tue,,,,,--- LUNCH ---,Applied Physics (RD),Applied Physics (RD),
+D38,Wed,,,,,--- LUNCH ---,,,
+D38,Thu,Mathematics-I (BKT),Applied Physics (RD),Communication Skill in English (SSC),Applied Chemistry (AM),--- LUNCH ---,Mathematics-I (BKT),Mathematics-I (BKT),
+D38,Fri,,,,,--- LUNCH ---,,,
+

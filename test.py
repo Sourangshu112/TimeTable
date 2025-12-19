@@ -18,8 +18,31 @@ import collections
 
 teachers = data.teachers
 theory = data.theory
+DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
+SLOTS = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8']
 
-courses_for_teacher = collections.defaultdict(list)
-courses_for_room = collections.defaultdict(list)
-print(courses_for_teacher)
-print(courses_for_room)
+
+shifts = {}
+for c_id in theory.keys():
+    for d in range(len(DAYS)):
+        for s in range(len(SLOTS)):
+            shifts[(c_id, d, s)] = f'c{c_id}_d{d}_s{s}'
+
+print(len(shifts))
+
+# courses_for_teacher = collections.defaultdict(list)
+# courses_for_room = collections.defaultdict(list)
+
+# for c_id, details in theory.items():
+#     room = details[0]
+#     t_id = details[3]
+#     courses_for_room[room].append(c_id)
+#     courses_for_teacher[t_id].append(c_id)
+
+# print(courses_for_room)
+# print(courses_for_teacher)
+
+for c_id, details in theory.items():
+        for d in range(len(DAYS)):
+            for s in range(len(SLOTS)):
+                print(shifts[(c_id, d, s)])

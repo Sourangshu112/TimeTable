@@ -31,18 +31,32 @@ subjects = data.theory
 
 
 
-with open('Diploma.csv','r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-        if row[5] != 'Theory':
-            continue
-        subject = row[3]
-        teacher = row[6]
-        for id,list in teachers.items():
-            if teacher == list[0]:
-                for i in subjects.values():
-                    if subject == i[1]:
-                        i.append(id)
+# with open('Diploma.csv','r') as file:
+#     reader = csv.reader(file)
+#     for row in reader:
+#         if row[5] != 'Theory':
+#             continue
+#         subject = row[3]
+#         teacher = row[6]
+#         for id,list in teachers.items():
+#             if teacher == list[0]:
+#                 for i in subjects.values():
+#                     if subject == i[1]:
+#                         i.append(id)
 
-for i in subjects.items():
-    print(f'{i[0]} : {i[1]},')
+# for i in subjects.items():
+#     print(f'{i[0]} : {i[1]},')
+
+
+with open('Diploma.csv', 'r') as file:
+    reader = csv.reader(file)
+    id = 1
+    for row in reader:
+        if row[5] == "Practical":
+            try:
+                print(f"{id}: {[row[3],int(row[4])]},")
+            except:
+                print(f"{id}: {[row[3],row[4]]},")
+            id += 1
+        else:
+            continue
