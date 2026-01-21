@@ -227,7 +227,7 @@ theory: dict = {
     71  : ['C39','Applied Physics I',4,144],
     72  : ['C39','Basic Electrical Engineering',4,145],
     73  : ['C39','Workshop',1,133],
-    74  : ['A24','Electric Circuit Theory',3,108],
+    74  : ['A24','Electric Circuit Theory',4,108],
     75  : ['A24','Engineering Mechanics',3,146],
     76  : ['A24','Mathematics-III',3,102],
     77  : ['A24','Electromagnetic Field Theory',3,147],
