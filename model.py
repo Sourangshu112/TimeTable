@@ -2,6 +2,7 @@ from ortools.sat.python import cp_model
 import collections
 import csv
 import data
+from pdf_generator import run_from_model
 
 # --- 1. DATA INPUT ---
 # (Same data as before)
@@ -57,6 +58,12 @@ def main():
             for s in range(len(SLOTS)):
                 if s == LUNCH_SLOT_INDEX: continue
                 model.Add(sum(shifts[(c_id, d, s)] for c_id in course_ids) <= 1)
+    #No same class in a day
+    for c_id in theory.keys():
+        for d in range(len(DAYS)):
+            model.Add(
+                sum(shifts[(c_id, d, s)] for s in range(len(SLOTS))) <= 1
+            )
 
 
     # --- Soft Constraints (The Quality Improvements) ---
@@ -176,7 +183,7 @@ def main():
     if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
         print(f"Solution Found! Status: {solver.StatusName(status)}")
         
-        filename = "timetables/college_timetable_final_5.csv"
+        filename = "timetable.csv"
         with open(filename, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             header = ['Room', 'Day'] + SLOTS
@@ -203,6 +210,7 @@ def main():
                 writer.writerow([]) 
 
         print(f"Exported to {filename}")
+        run_from_model()
     else:
         print("No solution found. Constraints might be too conflicting.")
 

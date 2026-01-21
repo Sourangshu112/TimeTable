@@ -191,3 +191,12 @@ if __name__ == "__main__":
         print("\nAll merged timetables generated!")
     else:
         print(f"Error: Ensure {INPUT_FILE} and {TEMPLATE_FILE} are present.")
+
+def run_from_model():
+    if os.path.exists(INPUT_FILE) and os.path.exists(TEMPLATE_FILE):
+        df = pd.read_csv(INPUT_FILE)
+        generate_classwise(df)
+        generate_teacherwise(df)
+        print("\nAll merged timetables generated!")
+    else:
+        print(f"Error: Ensure {INPUT_FILE} and {TEMPLATE_FILE} are present.")
