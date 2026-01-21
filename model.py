@@ -68,7 +68,7 @@ def main():
         for d in range(len(DAYS)):
             for s_idx, slot in enumerate(SLOTS):
                 if s_idx > LUNCH_SLOT_INDEX:
-                    weight = (s_idx - LUNCH_SLOT_INDEX) * 2 # Base cost
+                    weight = s_idx - LUNCH_SLOT_INDEX
                     objective_terms.append(shifts[(c_id, d, s_idx)] * weight)
 
     # B. Vertical Randomness (Course Balance)
@@ -176,7 +176,7 @@ def main():
     if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
         print(f"Solution Found! Status: {solver.StatusName(status)}")
         
-        filename = "timetables/college_timetable_final_4.csv"
+        filename = "timetables/college_timetable_final_5.csv"
         with open(filename, mode='w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             header = ['Room', 'Day'] + SLOTS

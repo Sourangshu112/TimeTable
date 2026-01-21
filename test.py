@@ -16,19 +16,19 @@ import collections
 #     check_for_same_room(data.batches)
         
 
-teachers = data.teachers
-theory = data.theory
-DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
-SLOTS = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8']
+# teachers = data.teachers
+# theory = data.theory
+# DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
+# SLOTS = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8']
 
 
-shifts = {}
-for c_id in theory.keys():
-    for d in range(len(DAYS)):
-        for s in range(len(SLOTS)):
-            shifts[(c_id, d, s)] = f'c{c_id}_d{d}_s{s}'
+# shifts = {}
+# for c_id in theory.keys():
+#     for d in range(len(DAYS)):
+#         for s in range(len(SLOTS)):
+#             shifts[(c_id, d, s)] = f'c{c_id}_d{d}_s{s}'
 
-print(len(shifts))
+# print(len(shifts))
 
 # courses_for_teacher = collections.defaultdict(list)
 # courses_for_room = collections.defaultdict(list)
@@ -42,7 +42,13 @@ print(len(shifts))
 # print(courses_for_room)
 # print(courses_for_teacher)
 
-for c_id, details in theory.items():
-        for d in range(len(DAYS)):
-            for s in range(len(SLOTS)):
-                print(shifts[(c_id, d, s)])
+# for c_id, details in theory.items():
+#         for d in range(len(DAYS)):
+#             for s in range(len(SLOTS)):
+#                 print(shifts[(c_id, d, s)])
+
+L = list(data.teachers.values())
+L.sort(key=lambda x: x[2])
+
+for i in L:
+    print(i)
