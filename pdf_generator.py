@@ -11,10 +11,14 @@ import copy
 # --- CONFIGURATION ---
 INPUT_FILE = 'timetable.csv'
 TEMPLATE_FILE = 'template_1.docx' # Must contain a table with 9 columns (Day + 8 slots)
-OUTPUT_DIR = 'Merged_Timetables'
+OUTPUT_DIR_CLASS = 'Merged_Timetables\Class'
+OUTPUT_DIR_TEACHER = 'Merged_Timetables\Teacher'
 
-if not os.path.exists(OUTPUT_DIR):
-    os.makedirs(OUTPUT_DIR)
+if not os.path.exists(OUTPUT_DIR_CLASS):
+    os.makedirs(OUTPUT_DIR_CLASS)
+
+if not os.path.exists(OUTPUT_DIR_TEACHER):
+    os.makedirs(OUTPUT_DIR_TEACHER)
 
 def get_cell_content(row, slot_col):
     """Parses the CSV cell to extract clean text."""
@@ -113,7 +117,7 @@ def generate_classwise(df):
             new_row = table.add_row()
             merge_cells_logic(new_row, row)
             
-        output_path = os.path.join(OUTPUT_DIR, f"Class_{room}.docx")
+        output_path = os.path.join(OUTPUT_DIR_CLASS, f"Class_{room}.docx")
         doc.save(output_path)
         print(f"Saved: {output_path}")
 
@@ -178,7 +182,7 @@ def generate_teacherwise(df):
             new_row = table.add_row()
             merge_cells_logic(new_row, row_data)
 
-        output_path = os.path.join(OUTPUT_DIR, f"Teacher_{teacher}.docx")
+        output_path = os.path.join(OUTPUT_DIR_TEACHER, f"Teacher_{teacher}.docx")
         doc.save(output_path)
         print(f"Saved: {output_path}")
 
