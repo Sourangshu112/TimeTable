@@ -153,7 +153,7 @@ teachers: dict = {
     162 : ['SS','Shuvra Saha','Civil']
 }
 
-theory: dict = {
+theory = {
     1   : ['D38', 'Applied Chemistry', 3, 101],
     2   : ['D38', 'Mathematics-I', 3, 102],
     3   : ['D38', 'Communication Skill in English', 2, 103],
@@ -311,113 +311,7 @@ theory: dict = {
 }
 
 
-# ['B.Tech', '1st', 'EE', 'Basic Electrical Engineering', '4', 'Theory', 'TkD', '', '', '']
-# ['B.Tech', '1st', 'EE', 'Mathematics IB', '4', 'Theory', 'RKN', '', '', '']
-# ['B.Tech', '1st', 'EE', 'Chemistry I', '1', 'Theory', 'SSD', '', '', '']
-# ['B.Tech', '1st', 'EE', 'Engineering Grapics', '4', 'Theory', 'HbR', '', '', '']
-# ['B.Tech', '1st', 'CSE(AI/ML)', 'Mathematics IA', '4', 'Theory', 'GH', '', '', '']
-# ['B.Tech', '1st', 'CSE(AI/ML)', 'Applied Physics I', '4', 'Theory', 'RD', '', '', '']
-# ['B.Tech', '1st', 'CSE(AI/ML)', 'Basic Electrical Engineering', '4', 'Theory', 'TkD', '', '', '']
-# ['B.Tech', '1st', 'CSE(AI/ML)', 'Workshop', '1', 'Theory', 'SkD', '', '', '']
-# ['B.Tech', '1st', 'ME', 'Mathematics IA', '4', 'Theory', 'RKN', '', '', '']
-# ['B.Tech', '1st', 'ME', 'Applied Physics I', '4', 'Theory', 'AP', '', '', '']
-# ['B.Tech', '1st', 'ME', 'Basic Electrical Engineering', '4', 'Theory', 'CS', '', '', '']
-# ['B.Tech', '1st', 'ME', 'Workshop', '1', 'Theory', 'AnP', '', '', '']
-# ['B.Tech', '1st', 'FET', 'Mathematics IA', '4', 'Theory', 'RKN', '', '', '']
-# ['B.Tech', '1st', 'FET', 'Applied Physics I', '4', 'Theory', 'AP', '', '', '']
-# ['B.Tech', '1st', 'FET', 'Basic Electrical Engineering', '4', 'Theory', 'CS', '', '', '']
-# ['B.Tech', '1st', 'FET', 'Workshop', '1', 'Theory', 'AnP', '', '', '']
-# ['B.Tech', '1st', 'C&EE', 'Mathematics IA', '4', 'Theory', 'RKN', '', '', '']
-# ['B.Tech', '1st', 'C&EE', 'Applied Physics I', '4', 'Theory', 'AP', '', '', '']
-# ['B.Tech', '1st', 'C&EE', 'Basic Electrical Engineering', '4', 'Theory', 'CS', '', '', '']
-# ['B.Tech', '1st', 'C&EE', 'Workshop', '1', 'Theory', 'AnP', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Electric Circuit Theory', '3', 'Theory', 'RK', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Engineering Mechanics', '3', 'Theory', 'TnS', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Mathematics-III', '3', 'Theory', 'BKT', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Electromagnetic Field Theory', '3', 'Theory', 'GG', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Analog Electronics', '3', 'Theory', 'AR', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Biology for Engineers', '3', 'Theory', 'Guest', '', '', '']
-# ['B.Tech', '2nd', 'EE', 'Indian Contitution', '3', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '2nd', 'CSE(AI/ML)', 'Analog & Digital Electronics', '3', 'Theory', 'SC', '', '', '']
-# ['B.Tech', '2nd', 'CSE(AI/ML)', 'DSA', '3', 'Theory', 'IW', '', '', '']
-# ['B.Tech', '2nd', 'CSE(AI/ML)', 'Computer Organisation', '3', 'Theory', 'SR', '', '', '']
-# ['B.Tech', '2nd', 'CSE(AI/ML)', 'Linear Algebra', '2', 'Theory', 'GH', '', '', '']
-# ['B.Tech', '2nd', 'CSE(AI/ML)', 'Economics', '3', 'Theory', 'PS', '', '', '']
-# ['B.Tech', '2nd', 'ME', 'Biology ', '3', 'Theory', 'Guest', '', '', '']
-# ['B.Tech', '2nd', 'ME', 'Manufacturing Process', '4', 'Theory', 'DD', '', '', '']
-# ['B.Tech', '2nd', 'ME', 'Matematics-III', '4', 'Theory', 'DG', '', '', '']
-# ['B.Tech', '2nd', 'ME', 'Thermodynamics', '4', 'Theory', 'SKD', '', '', '']
-# ['B.Tech', '2nd', 'ME', 'Basic Electronics Engineering', '3', 'Theory', 'SC', '', '', '']
-# ['B.Tech', '2nd', 'ME', 'Engineering Mechanics', '4', 'Theory', 'HM', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Chemistry II', '3', 'Theory', 'AM', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Chemistry for Food', '4', 'Theory', 'MAM', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Food Microbiology', '4', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Unit Operation I', '4', 'Theory', 'VK', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Engineering Thermodynamics', '3', 'Theory', 'SKD', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Biology for Engineers', '3', 'Theory', 'Guest', '', '', '']
-# ['B.Tech', '2nd', 'FET', 'Chemistry for Food Lab ', '3', 'Theory', 'MAM', 'N/A', '', '']
-# ['B.Tech', '2nd', 'C&EE', 'Values & Ethics in Profession', '3', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '2nd', 'C&EE', 'Chemistry II', '5', 'Theory', 'KP', '', '', '']
-# ['B.Tech', '2nd', 'C&EE', 'En.&Biology', '3', 'Theory', 'SS', '', '', '']
-# ['B.Tech', '2nd', 'C&EE', 'Thermodynamics & kinetics', '2', 'Theory', 'HS', '', '', '']
-# ['B.Tech', '2nd', 'C&EE', 'Surveying', '3', 'Theory', 'PY', '', '', '']
-# ['B.Tech', '2nd', 'C&EE', 'Building Material & Construction', '5', 'Theory', 'HS', '', '', '']
-# ['B.Tech', '3rd', 'EE', 'Power Electronics', '3', 'Theory', 'SnC', '', '', '']
-# ['B.Tech', '3rd', 'EE', 'Control System', '3', 'Theory', 'RRK', '', '', '']
-# ['B.Tech', '3rd', 'EE', 'Electrical Machine II', '3', 'Theory', 'GG', '', '', '']
-# ['B.Tech', '3rd', 'EE', 'DSA', '3', 'Theory', 'SB', '', '', '']
-# ['B.Tech', '3rd', 'EE', 'Power System I', '3', 'Theory', 'SC', '', '', '']
-# ['B.Tech', '3rd', 'EE', 'Renewable & Non-conventional Energy', '3', 'Theory', 'SA', '', '', '']
-# ['B.Tech', '3rd', 'CSE(AI/ML)', 'Probability & Statistics', '3', 'Theory', 'DG', '', '', '']
-# ['B.Tech', '3rd', 'CSE(AI/ML)', 'Operating System', '3', 'Theory', 'SDM', '', '', '']
-# ['B.Tech', '3rd', 'CSE(AI/ML)', 'Object Oriented Programming', '3', 'Theory', 'SUD', '', '', '']
-# ['B.Tech', '3rd', 'CSE(AI/ML)', 'Intro to Machine Learning', '3', 'Theory', 'IW', '', '', '']
-# ['B.Tech', '3rd', 'CSE(AI/ML)', 'Intro to industrial management', '3', 'Theory', 'TS', '', '', '']
-# ['B.Tech', '3rd', 'ME', 'Heat Transfer', '4', 'Theory', 'MJK', '', '', '']
-# ['B.Tech', '3rd', 'ME', 'Effective Technical Communication', '3', 'Theory', 'CD', '', '', '']
-# ['B.Tech', '3rd', 'ME', 'Solid Mechanics', '4', 'Theory', 'MJK', '', '', '']
-# ['B.Tech', '3rd', 'ME', 'Kinematics & TOM', '4', 'Theory', 'HbR', '', '', '']
-# ['B.Tech', '3rd', 'ME', 'Essence of Indian Knowledge Tradition', '2', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Food Processing Technology I', '4', 'Theory', 'MAM', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Food Processing Technology II', '3', 'Theory', 'SKD', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Renewable Energy', '3', 'Theory', 'ABD', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Fermentation Technology', '3', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Food Process Engineering', '3', 'Theory', 'KKD', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Constitution', '3', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '3rd', 'FET', 'Economics', '2', 'Theory', 'PS', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Economics', '1', 'Theory', 'PS', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Unit Operation II', '3', 'Theory', 'SC', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Design of RC Structures A', '3', 'Theory', 'SB', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Design of RC Structures B', '3', 'Theory', 'SS', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Engineering geology-A', '3', 'Theory', 'SB', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Engineering geology-B', '3', 'Theory', 'HbR', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Concrete Technology A', '3', 'Theory', 'SS', '', '', '']
-# ['B.Tech', '3rd', 'C&EE', 'Concrete Technology B', '3', 'Theory', 'HbR', '', '', '']
-# ['B.Tech', '4th', 'EE', 'Artificial Intelligence', '3', 'Theory', 'SB', '', '', '']
-# ['B.Tech', '4th', 'EE', 'Power Generation Economics', '3', 'Theory', 'SnC', '', '', '']
-# ['B.Tech', '4th', 'EE', 'Electric Drive', '3', 'Theory', 'CS', '', '', '']
-# ['B.Tech', '4th', 'EE', 'Principles of Management', '3', 'Theory', 'PS', '', '', '']
-# ['B.Tech', '4th', 'EE', 'Digital Image Processing', '3', 'Theory', 'AR', '', '', '']
-# ['B.Tech', '4th', 'FET', 'Entrepreuneurship for Food Tech', '3', 'Theory', 'AS', '', '', '']
-# ['B.Tech', '4th', 'FET', 'Nanoscience in Food Science', '3', 'Theory', 'KKD', '', '', '']
-# ['B.Tech', '4th', 'FET', 'Modelling and Simulation of Food Process', '3', 'Theory', 'SC', '', '', '']
-# ['B.Tech', '4th', 'FET', 'Project Engineering & Food Plant Layout', '3', 'Theory', 'ABD', '', '', '']
-# ['B.Tech', '4th', 'FET', 'Food Saftey & Quality Management', '3', 'Theory', 'VK', '', '', '']
-# ['B.Tech', '4th', 'FET', 'Food Packaging Technology', '3', 'Theory', 'SC', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Non-Conventional Energy', '3', 'Theory', 'SKD', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Industrial Engineering', '3', 'Theory', 'AnP', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Advanced Weilding technolog', '3', 'Theory', 'TS', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Mechanical Vibration', '3', 'Theory', 'DS', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Advance Manufacturing Technology', '3', 'Theory', 'DD', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Automobile Engineering', '3', 'Theory', 'NM', '', '', '']
-# ['B.Tech', '4th', 'ME', 'CAD-CAM', '3', 'Theory', 'HM', '', '', '']
-# ['B.Tech', '4th', 'ME', 'Economics', '3', 'Theory', 'PS', '', '', '']
-
-
-
-
-
-labs: dict = {
+labs = {
     101 : "Ghraphics Labs",
     102 : "Workshop",
     103 : "Chemistry Lab",
@@ -428,7 +322,7 @@ labs: dict = {
 
 
 
-practical: dict = {
+practical = {
     #id: [batch,labroom,subject,[hr_needed_continuous],[teachers]]
     1 : ['Engineering Ghraphics', 3],
     2 : ['Engineering Workshop Practics', 3],
@@ -469,11 +363,53 @@ practical: dict = {
     37: ['Fluid Mechanis Lab', 2],
     38: ['Advance Manufactoring Process Lab', 2],
     39: ['Automobile Engineering Lab', 2],
-    40: ['Dairy Technology Lab', '2,2'],
-    41: ['Bakery and Confect Tech Lab', '2,2'],
+    40: ['Dairy Technology Lab', [2,2]],
+    41: ['Bakery and Confect Tech Lab', [2,2]],
     42: ['Food Analylis & QC Lab', 3],
     43: ['Microprocessor and Microcontroller Lab using simulator', 2],
     44: ['Estimate costing and Valuation Practices', 2],
     45: ['Water Resource Engg. Lab', 2],
     46: ['Design of RCC and Steel Structure Practices', 2],
+    47: ['Chemistry I Lab (Gr-1)', 3],
+    48: ['Basic Electrical Engineering Lab (Gr-1)', 2],
+    49: ['Engineering Grapics', 5],
+    50: ['Basic Electrical Engineering Lab (Gr-1)', 2],
+    51: ['Applied Physics I Lab (Gr-1)', 3],
+    52: ['WorKshop (Gr-1)', 4],
+    53: ['Basic Electrical Engineering Lab (Gr-1)', 2],
+    54: ['Applied Physics I Lab (Gr-1)', 3],
+    55: ['WorKshop (Gr-1)', 4],
+    56: ['Numerical Methods Laboratory(Gr-1)', 2],
+    57: ['Analog Electronics Lab', 2],
+    58: ['Electric Circuit Theory Lab', 2],
+    59: ['DSA Lab (Gr-1)', 4],
+    60: ['Analog & Digital Electronics (Gr-1)', 2],
+    61: ['Computer Organisation Lab (Gr-1)', 2],
+    62: ['IT Workshop (Gr-1)', 4],
+    63: ['Practice for Manufacturing(Gr-1)', 3],
+    64: ['Microbiology of Food Lab', 3],
+    65: ['Chemistry II Lab', 3],
+    66: ['Enviromental Engineering Lab', 3],
+    67: ['Surveying Practice I', 3],
+    68: ['Building Design & Drawing', 3],
+    69: ['Power Electronics Lab', 2],
+    70: ['Control System Lab', 2],
+    71: ['Electrical Machine II Lab', 2],
+    72: ['Power System I Lab', 2],
+    73: ['Operating System Lab', 4],
+    74: ['OOP & Java Lab', 4],
+    75: ['Machine Learning Lab', 4],
+    76: ['Cloud Computing', 4],
+    77: ['Machine Drawing II', 3],
+    78: ['Mech. Eng. Lab(Thermal)', 3],
+    79: ['Project I', 4],
+    80: ['Food Enginnering Lab', 4],
+    81: ['Food Analysis and Quality Control Lab', 4],
+    82: ['Soil Mechanics Lab II', 3],
+    83: ['Quantity Surveying', 3],
+    84: ['Concrete Laboratory', 3],
+    85: ['Engineering Geology Lab', 3],
+    86: ['Electrical Drive Lab', 2],
+    87: ['Product Development & Quality Assurance Lab', 3],
+    88: ['Mechanical Engineering Lab II', 3],
 }
