@@ -60,25 +60,38 @@ subjects = data.theory
 #     print(f'{i[0]} : {i[1]},')
 
 
-count = 62
-with open('BTech.csv','r') as file:
-    reader = csv.reader(file)
-    for row in reader:
-        if row[5] == 'Theory':
-            print(f"{count} : ['','{row[3]}',{row[4]},],")
-            count += 1
+# count = 62
+# with open('BTech.csv','r') as file:
+#     reader = csv.reader(file)
+#     for row in reader:
+#         if row[5] == 'Theory':
+#             print(f"{count} : ['','{row[3]}',{row[4]},],")
+#             count += 1
             
 
+count = 46
+with open('Diploma.csv', 'r') as file:
+    reader = csv.reader(file)
+    id = 1
+    for row in reader:
+        if row[5] == "Practical":
+            try:
+                print(f"{id}: {[row[3],int(row[4])]},")
+            except:
+                print(f"{id}: {[row[3],row[4]]},")
+            id += 1
+        else:
+            continue
 
-# with open('Diploma.csv', 'r') as file:
-#     reader = csv.reader(file)
-#     id = 1
-#     for row in reader:
-#         if row[5] == "Practical":
-#             try:
-#                 print(f"{id}: {[row[3],int(row[4])]},")
-#             except:
-#                 print(f"{id}: {[row[3],row[4]]},")
-#             id += 1
-#         else:
-#             continue
+with open('BTech.csv', 'r') as file:
+    reader = csv.reader(file)
+    id = 47
+    for row in reader:
+        if row[5] == "Practical":
+            try:
+                print(f"{id}: {[row[3],int(row[4])]},")
+            except:
+                print(f"{id}: {[row[3],row[4]]},")
+            id += 1
+        else:
+            continue
