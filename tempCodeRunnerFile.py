@@ -1,0 +1,1 @@
+safe_name = re.sub(r'[\\/*?:"<>|]', "", str(batch_name))
