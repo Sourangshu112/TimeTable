@@ -9,7 +9,7 @@ import os
 import copy
 
 # --- CONFIGURATION ---
-INPUT_FILE = 'timetable.csv'
+INPUT_FILE = 'timetable_split_batches.csv'
 TEMPLATE_FILE = 'template_1.docx' # Must contain a table with 9 columns (Day + 8 slots)
 OUTPUT_DIR_CLASS = 'Merged_Timetables\Class'
 OUTPUT_DIR_TEACHER = 'Merged_Timetables\Teacher'

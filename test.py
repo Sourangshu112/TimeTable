@@ -47,8 +47,7 @@ import collections
 #             for s in range(len(SLOTS)):
 #                 print(shifts[(c_id, d, s)])
 
-L = list(data.teachers.values())
-L.sort(key=lambda x: x[2])
 
-for i in L:
-    print(i)
+
+for i,j in data.diploma_theroy.items():
+    print(f"{i} : [[{j[0]}], '{j[1]}', {j[2]}, [{j[3]}]],")
