@@ -1,206 +1,239 @@
 import pandas as pd
 from docx import Document
-from docx.shared import Pt, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.ns import nsdecls
-from docx.oxml import parse_xml
+from docx.oxml.ns import qn
 import re
 import os
-import copy
 
 # --- CONFIGURATION ---
-INPUT_FILE = 'timetable_split_batches.csv'
-TEMPLATE_FILE = 'template_1.docx' # Must contain a table with 9 columns (Day + 8 slots)
-OUTPUT_DIR_CLASS = 'Merged_Timetables\Class'
-OUTPUT_DIR_TEACHER = 'Merged_Timetables\Teacher'
+INPUT_FILE = 'timetable.csv'
+TEMPLATE_FILE = 'template_1.docx' # Must have 10 columns (Day + S1..S9)
+OUTPUT_DIR_CLASS = os.path.join('Merged_Timetables', 'Class')
+OUTPUT_DIR_TEACHER = os.path.join('Merged_Timetables', 'Teacher')
 
-if not os.path.exists(OUTPUT_DIR_CLASS):
-    os.makedirs(OUTPUT_DIR_CLASS)
+os.makedirs(OUTPUT_DIR_CLASS, exist_ok=True)
+os.makedirs(OUTPUT_DIR_TEACHER, exist_ok=True)
 
-if not os.path.exists(OUTPUT_DIR_TEACHER):
-    os.makedirs(OUTPUT_DIR_TEACHER)
+def replace_placeholder_everywhere(doc, placeholder, replacement):
+    """Replaces text in Body, Tables, Headers, and Text Boxes."""
+    def replace_in_paragraph(paragraph):
+        if placeholder in paragraph.text:
+            paragraph.text = paragraph.text.replace(placeholder, replacement)
 
-def get_cell_content(row, slot_col):
-    """Parses the CSV cell to extract clean text."""
-    val = str(row[slot_col])
-    if not val or val == 'nan' or 'lunch' in val.lower():
-        return ""
-    return val.strip()
+    # 1. Body & Tables
+    for p in doc.paragraphs: replace_in_paragraph(p)
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                for p in cell.paragraphs: replace_in_paragraph(p)
+    
+    # 2. Headers
+    for section in doc.sections:
+        if section.header:
+            for p in section.header.paragraphs: replace_in_paragraph(p)
+            for table in section.header.tables:
+                for row in table.rows:
+                    for cell in row.cells:
+                        for p in cell.paragraphs: replace_in_paragraph(p)
+
+    # 3. Text Boxes
+    for txbx in doc.element.body.findall('.//' + qn('w:txbxContent')):
+        for element in txbx:
+            if element.tag == qn('w:p'):
+                from docx.text.paragraph import Paragraph
+                replace_in_paragraph(Paragraph(element, doc))
+            elif element.tag == qn('w:tbl'):
+                 from docx.table import Table
+                 t = Table(element, doc)
+                 for row in t.rows:
+                     for cell in row.cells:
+                         for p in cell.paragraphs: replace_in_paragraph(p)
 
 def merge_cells_logic(table_row, data_row):
-    """
-    Fills a row and merges cells if consecutive slots have identical content.
-    """
-    # 1. Fill the "Day" column (Column 0)
+    """Merges consecutive cells with identical content."""
+    # 1. Fill Day
     cell_day = table_row.cells[0]
-    cell_day.text = data_row['Day']
-    cell_day.paragraphs[0].runs[0].font.bold = True
+    cell_day.text = str(data_row['Day'])
+    if cell_day.paragraphs:
+        cell_day.paragraphs[0].runs[0].font.bold = True
 
-    # 2. Iterate through slots (S1 to S8) -> Columns 1 to 8
-    # We maintain a 'start_index' to know where the current merge block began
+    # 2. Iterate Slots S1-S9
+    slot_cols = [f'S{i}' for i in range(1, 10)]
     start_col_idx = 1 
-    previous_content = get_cell_content(data_row, 'S1')
-    
-    # We loop from S2 (col 2) up to S8 (col 8) + 1 extra iteration to finish the last block
-    slot_cols = [f'S{i}' for i in range(1, 9)]
+    previous_content = str(data_row.get('S1', ''))
     
     for i in range(1, len(slot_cols)):
         current_slot = slot_cols[i]
-        current_col_idx = i + 1 # Column index in Word table
-        
-        current_content = get_cell_content(data_row, current_slot)
+        current_col_idx = i + 1 
+        current_content = str(data_row.get(current_slot, ''))
 
-        # CHECK: Is this slot different from the previous one?
         if current_content != previous_content:
-            # A block has ended. Process the *previous* block.
-            
-            # Get the range of cells to merge: [start_col_idx ... current_col_idx - 1]
             first_cell = table_row.cells[start_col_idx]
             last_cell = table_row.cells[current_col_idx - 1]
-            
-            # Merge if the block spans more than 1 cell
             if first_cell != last_cell:
                 first_cell.merge(last_cell)
             
-            # Write the text into the (now merged) first cell
             first_cell.text = previous_content
+            for paragraph in first_cell.paragraphs:
+                paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
             
-            # Style the cell (Center text)
-            if previous_content:
-                for paragraph in first_cell.paragraphs:
-                    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            
-            # Reset for the new block
             start_col_idx = current_col_idx
             previous_content = current_content
 
-    # 3. Handle the final block (The last slot, S8)
+    # Final block
     first_cell = table_row.cells[start_col_idx]
-    last_cell = table_row.cells[8] # The last column
-    
+    last_cell = table_row.cells[len(slot_cols)]
     if first_cell != last_cell:
         first_cell.merge(last_cell)
-        
     first_cell.text = previous_content
-    if previous_content:
-        for paragraph in first_cell.paragraphs:
-            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    for paragraph in first_cell.paragraphs:
+        paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
 def generate_classwise(df):
-    """Generates one docx per room using the template."""
     print("Generating Class-wise Timetables...")
+    grouped = df.groupby('Batch Name')
     
-    grouped = df.groupby('Room')
-    
-    for room, group in grouped:
-        # Load the clean template for every room
+    for batch_name, group in grouped:
         doc = Document(TEMPLATE_FILE)
+        target_table = next((t for t in doc.tables if len(t.columns) >= 10), None)
         
-        # Find the table (Assuming it's the first table in the doc)
-        if not doc.tables:
-            print("Error: No table found in template.docx")
-            return
-        table = doc.tables[0]
-        
-        # Set Title (Optional: Finds a paragraph "{{ title }}" and replaces it)
-        for p in doc.paragraphs:
-            if "{{ title }}" in p.text:
-                p.text = p.text.replace("{{ title }}", f"Class Timetable - Room {room}")
+        if not target_table: continue
 
-        # Sort Days
+        replace_placeholder_everywhere(doc, "{{ title }}", f"Timetable: {batch_name}")
+
         day_order = {'Mon': 0, 'Tue': 1, 'Wed': 2, 'Thu': 3, 'Fri': 4, 'Sat': 5}
         group['day_num'] = group['Day'].map(day_order)
         group = group.sort_values('day_num')
 
-        # Add Rows and Merge
         for _, row in group.iterrows():
-            new_row = table.add_row()
-            merge_cells_logic(new_row, row)
+            new_row = target_table.add_row()
+            # Clean row data for classwise view
+            clean_row = {'Day': row['Day']}
+            for i in range(1, 10):
+                slot = f'S{i}'
+                val = str(row[slot])
+                if not val or val == 'nan' or 'lunch' in val.lower():
+                    clean_row[slot] = ""
+                else:
+                    # Remove teacher code for cleaner Class View (optional)
+                    # match = re.search(r'(.*)\s+\(.*\)$', val)
+                    # clean_row[slot] = match.group(1).strip() if match else val
+                    clean_row[slot] = val # Keep full text
             
-        output_path = os.path.join(OUTPUT_DIR_CLASS, f"Class_{room}.docx")
-        doc.save(output_path)
-        print(f"Saved: {output_path}")
+            merge_cells_logic(new_row, clean_row)
+            
+        safe_name = re.sub(r'[\\/*?:"<>|]', "", str(batch_name))
+        try:
+            doc.save(os.path.join(OUTPUT_DIR_CLASS, f"{safe_name}.docx"))
+            print(f"Saved Class: {safe_name}.docx")
+        except PermissionError:
+            print(f"SKIPPED: {safe_name}.docx is open. Close it!")
 
 def generate_teacherwise(df):
-    """Generates one docx per teacher using the template."""
     print("Generating Teacher-wise Timetables...")
     
-    # 1. Pivot Logic to reconstruct teacher rows
+    # 1. Parse Records
     records = []
-    slot_cols = [f'S{i}' for i in range(1, 9)]
+    slot_cols = [f'S{i}' for i in range(1, 10)]
     
     for _, row in df.iterrows():
-        room = row['Room']
+        batch = row['Batch Name']
         day = row['Day']
         for slot in slot_cols:
             val = str(row[slot])
-            if not val or val == 'nan' or 'lunch' in val.lower():
-                continue
+            if not val or val == 'nan' or 'lunch' in val.lower(): continue
             
+            # Extract Subject & Teacher
             match = re.search(r'(.*)\s+\(([^)]+)\)$', val)
             if match:
                 subject = match.group(1).strip()
-                teacher = match.group(2).strip()
-                records.append({
-                    'Teacher': teacher,
-                    'Day': day,
-                    'Slot': slot,
-                    'Content': f"{subject}\n({room})"
-                })
-    
+                teachers_str = match.group(2).strip()
+                # Split multiple teachers "T1, T2"
+                for teacher in teachers_str.split(','):
+                    records.append({
+                        'Teacher': teacher.strip(),
+                        'Day': day,
+                        'Slot': slot,
+                        'Subject': subject,
+                        'Batch': batch
+                    })
+
     if not records: return
     t_df = pd.DataFrame(records)
-    
     unique_teachers = sorted(t_df['Teacher'].unique())
     days_order = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
 
     for teacher in unique_teachers:
         doc = Document(TEMPLATE_FILE)
-        table = doc.tables[0]
-        
-        # Set Title
-        for p in doc.paragraphs:
-            if "{{ title }}" in p.text:
-                p.text = p.text.replace("{{ title }}", f"Teacher Timetable: {teacher}")
+        target_table = next((t for t in doc.tables if len(t.columns) >= 10), None)
+        if not target_table: continue
 
-        # Filter data for this teacher
-        t_data = t_df[t_df['Teacher'] == teacher]
+        replace_placeholder_everywhere(doc, "{{ title }}", f"Timetable: {teacher}")
+
+        teacher_data = t_df[t_df['Teacher'] == teacher]
         
         for day in days_order:
-            # Construct a row object similar to the dataframe row
             row_data = {'Day': day}
-            day_records = t_data[t_data['Day'] == day]
+            day_records = teacher_data[teacher_data['Day'] == day]
             
             for slot in slot_cols:
-                # Find if teacher has class in this slot
-                slot_record = day_records[day_records['Slot'] == slot]
-                if not slot_record.empty:
-                    row_data[slot] = slot_record.iloc[0]['Content']
-                else:
-                    row_data[slot] = "" # Free period
+                # Find all batches for this teacher in this slot
+                slot_classes = day_records[day_records['Slot'] == slot]
+                
+                if slot_classes.empty:
+                    row_data[slot] = ""
+                    continue
+                
+                # --- MERGING LOGIC ---
+                # 1. Group by Subject
+                subject_map = {} # { "Math": ["Batch A", "Batch B"] }
+                
+                for _, r in slot_classes.iterrows():
+                    subj = r['Subject']
+                    bat = r['Batch']
+                    if subj not in subject_map:
+                        subject_map[subj] = []
+                    if bat not in subject_map[subj]:
+                        subject_map[subj].append(bat)
+                
+                # 2. Format the Text
+                final_texts = []
+                for subj, batches in subject_map.items():
+                    sorted_batches = sorted(batches)
+                    batch_str = ", ".join(sorted_batches)
+                    
+                    # Merge Logic: If [T] (Theory), combine batches
+                    if "[T]" in subj:
+                        result = batch_str.split(',')[0].strip().rsplit('-', 1)[0]
+                        entry = f"{subj}\n({result})"
+                    else:
+                        # For Labs [L], keep separate or combine? 
+                        # Usually Labs are separate groups, but if you want them combined too, use same logic.
+                        # For now, let's combine Labs too if it's the exact same subject title.
+                        entry = f"{subj}\n({batch_str})"
+                    
+                    final_texts.append(entry)
+                
+                row_data[slot] = "\n\n".join(final_texts)
             
-            new_row = table.add_row()
+            new_row = target_table.add_row()
             merge_cells_logic(new_row, row_data)
 
-        output_path = os.path.join(OUTPUT_DIR_TEACHER, f"Teacher_{teacher}.docx")
-        doc.save(output_path)
-        print(f"Saved: {output_path}")
+        safe_name = re.sub(r'[\\/*?:"<>|]', "", str(teacher))
+        try:
+            doc.save(os.path.join(OUTPUT_DIR_TEACHER, f"{safe_name}.docx"))
+            print(f"Saved Teacher: {safe_name}.docx")
+        except PermissionError:
+             print(f"SKIPPED: {safe_name}.docx is open. Close it!")
 
-# --- MAIN ---
 if __name__ == "__main__":
     if os.path.exists(INPUT_FILE) and os.path.exists(TEMPLATE_FILE):
-        df = pd.read_csv(INPUT_FILE)
+        try:
+            df = pd.read_csv(INPUT_FILE)
+        except:
+            df = pd.read_csv(INPUT_FILE, encoding='latin1')
         generate_classwise(df)
         generate_teacherwise(df)
-        print("\nAll merged timetables generated!")
+        print("\nDone!")
     else:
-        print(f"Error: Ensure {INPUT_FILE} and {TEMPLATE_FILE} are present.")
-
-def run_from_model():
-    if os.path.exists(INPUT_FILE) and os.path.exists(TEMPLATE_FILE):
-        df = pd.read_csv(INPUT_FILE)
-        generate_classwise(df)
-        generate_teacherwise(df)
-        print("\nAll merged timetables generated!")
-    else:
-        print(f"Error: Ensure {INPUT_FILE} and {TEMPLATE_FILE} are present.")
+        print("Missing files.")

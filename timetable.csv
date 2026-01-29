@@ -1,253 +1,253 @@
 Batch ID,Batch Name,Day,S1,S2,S3,S4,S5,S6,S7,S8,S9
-1,btech-ME-1-A,Mon,[T] Workshop (AnP),[T] Mathematics IA (RKN),[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)","[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)",,
-1,btech-ME-1-A,Tue,,,,,--- LUNCH ---,,,,
-1,btech-ME-1-A,Wed,[T] Mathematics IA (RKN),,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),
-1,btech-ME-1-A,Thu,[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),[T] Mathematics IA (RKN),,--- LUNCH ---,,,,
-1,btech-ME-1-A,Fri,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),,[T] Mathematics IA (RKN),--- LUNCH ---,"[L:130] WorKshop (Gr-1) (AnP,SdC)","[L:130] WorKshop (Gr-1) (AnP,SdC)","[L:130] WorKshop (Gr-1) (AnP,SdC)","[L:130] WorKshop (Gr-1) (AnP,SdC)"
+1,btech-ME-1-A,Mon,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),[T] Mathematics IA (RKN),[T] Workshop (AnP),--- LUNCH ---,"[L:130] WorKshop (Gr-1) (AnP,SdC)","[L:130] WorKshop (Gr-1) (AnP,SdC)","[L:130] WorKshop (Gr-1) (AnP,SdC)","[L:130] WorKshop (Gr-1) (AnP,SdC)"
+1,btech-ME-1-A,Tue,,,,,--- LUNCH ---,,,"[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)","[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)"
+1,btech-ME-1-A,Wed,[T] Mathematics IA (RKN),[T] Applied Physics I (AP),,[T] Basic Electrical Engineering (CS),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),
+1,btech-ME-1-A,Thu,[T] Basic Electrical Engineering (CS),,[T] Applied Physics I (AP),[T] Mathematics IA (RKN),--- LUNCH ---,,,,
+1,btech-ME-1-A,Fri,,[T] Mathematics IA (RKN),[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),--- LUNCH ---,,,,
 
-2,btech-CEE-1-A,Mon,[T] Workshop (AnP),[T] Mathematics IA (RKN),[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),--- LUNCH ---,,,,
-2,btech-CEE-1-A,Tue,"[L:130] WorKshop (Gr-1) (TnS,PbM)","[L:130] WorKshop (Gr-1) (TnS,PbM)","[L:130] WorKshop (Gr-1) (TnS,PbM)","[L:130] WorKshop (Gr-1) (TnS,PbM)",--- LUNCH ---,,,"[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)","[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)"
-2,btech-CEE-1-A,Wed,[T] Mathematics IA (RKN),,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),--- LUNCH ---,,,,
-2,btech-CEE-1-A,Thu,[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),[T] Mathematics IA (RKN),,--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),
-2,btech-CEE-1-A,Fri,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),,[T] Mathematics IA (RKN),--- LUNCH ---,,,,
+2,btech-CEE-1-A,Mon,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),[T] Mathematics IA (RKN),[T] Workshop (AnP),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),
+2,btech-CEE-1-A,Tue,"[L:130] WorKshop (Gr-1) (TnS,PbM)","[L:130] WorKshop (Gr-1) (TnS,PbM)","[L:130] WorKshop (Gr-1) (TnS,PbM)","[L:130] WorKshop (Gr-1) (TnS,PbM)",--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)","[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)",,
+2,btech-CEE-1-A,Wed,[T] Mathematics IA (RKN),[T] Applied Physics I (AP),,[T] Basic Electrical Engineering (CS),--- LUNCH ---,,,,
+2,btech-CEE-1-A,Thu,[T] Basic Electrical Engineering (CS),,[T] Applied Physics I (AP),[T] Mathematics IA (RKN),--- LUNCH ---,,,,
+2,btech-CEE-1-A,Fri,,[T] Mathematics IA (RKN),[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),--- LUNCH ---,,,,
 
-3,btech-FET-1-A,Mon,[T] Workshop (AnP),[T] Mathematics IA (RKN),[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),
-3,btech-FET-1-A,Tue,,,,,--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)","[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)",,
-3,btech-FET-1-A,Wed,[T] Mathematics IA (RKN),,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),--- LUNCH ---,"[L:130] WorKshop (Gr-1) (SlM,SdC)","[L:130] WorKshop (Gr-1) (SlM,SdC)","[L:130] WorKshop (Gr-1) (SlM,SdC)","[L:130] WorKshop (Gr-1) (SlM,SdC)"
-3,btech-FET-1-A,Thu,[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),[T] Mathematics IA (RKN),,--- LUNCH ---,,,,
-3,btech-FET-1-A,Fri,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),,[T] Mathematics IA (RKN),--- LUNCH ---,,,,
+3,btech-FET-1-A,Mon,[T] Applied Physics I (AP),[T] Basic Electrical Engineering (CS),[T] Mathematics IA (RKN),[T] Workshop (AnP),--- LUNCH ---,,,,
+3,btech-FET-1-A,Tue,,,,,--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),
+3,btech-FET-1-A,Wed,[T] Mathematics IA (RKN),[T] Applied Physics I (AP),,[T] Basic Electrical Engineering (CS),--- LUNCH ---,,,,
+3,btech-FET-1-A,Thu,[T] Basic Electrical Engineering (CS),,[T] Applied Physics I (AP),[T] Mathematics IA (RKN),--- LUNCH ---,"[L:130] WorKshop (Gr-1) (SlM,SdC)","[L:130] WorKshop (Gr-1) (SlM,SdC)","[L:130] WorKshop (Gr-1) (SlM,SdC)","[L:130] WorKshop (Gr-1) (SlM,SdC)"
+3,btech-FET-1-A,Fri,,[T] Mathematics IA (RKN),[T] Basic Electrical Engineering (CS),[T] Applied Physics I (AP),--- LUNCH ---,,,"[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)","[L:114] Basic Electrical Engineering Lab (Gr-1) (CS,MA)"
 
-4,btech-EE-1-A,Mon,[T] Engineering Grapics (HbR),[T] Chemistry I (SSD),[T] Basic Electrical Engineering (TkD),[T] Mathematics IB (RKN),--- LUNCH ---,,,,
-4,btech-EE-1-A,Tue,[T] Mathematics IB (RKN),,[T] Chemistry I (SSD),,--- LUNCH ---,[L:113] Chemistry I Lab (Gr-1) (AM),[L:113] Chemistry I Lab (Gr-1) (AM),[L:113] Chemistry I Lab (Gr-1) (AM),
-4,btech-EE-1-A,Wed,[T] Chemistry I (SSD),[T] Mathematics IB (RKN),,[T] Basic Electrical Engineering (TkD),--- LUNCH ---,,,"[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)","[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)"
-4,btech-EE-1-A,Thu,[T] Basic Electrical Engineering (TkD),,,,--- LUNCH ---,,,,
-4,btech-EE-1-A,Fri,,[T] Basic Electrical Engineering (TkD),[T] Mathematics IB (RKN),[T] Chemistry I (SSD),--- LUNCH ---,[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR)
+4,btech-EE-1-A,Mon,[T] Mathematics IB (RKN),[T] Basic Electrical Engineering (TkD),[T] Chemistry I (SSD),[T] Engineering Grapics (HbR),--- LUNCH ---,,,,
+4,btech-EE-1-A,Tue,,,,,--- LUNCH ---,[L:113] Chemistry I Lab (Gr-1) (AM),[L:113] Chemistry I Lab (Gr-1) (AM),[L:113] Chemistry I Lab (Gr-1) (AM),
+4,btech-EE-1-A,Wed,[T] Chemistry I (SSD),[T] Mathematics IB (RKN),,[T] Basic Electrical Engineering (TkD),--- LUNCH ---,,,,
+4,btech-EE-1-A,Thu,[T] Basic Electrical Engineering (TkD),,[T] Mathematics IB (RKN),[T] Chemistry I (SSD),--- LUNCH ---,[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR)
+4,btech-EE-1-A,Fri,,[T] Chemistry I (SSD),[T] Basic Electrical Engineering (TkD),[T] Mathematics IB (RKN),--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)","[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)",,
 
-5,btech-EE-1-B,Mon,[T] Engineering Grapics (HbR),[T] Chemistry I (SSD),[T] Basic Electrical Engineering (TkD),[T] Mathematics IB (RKN),--- LUNCH ---,[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR)
-5,btech-EE-1-B,Tue,[T] Mathematics IB (RKN),,[T] Chemistry I (SSD),,--- LUNCH ---,,,,
-5,btech-EE-1-B,Wed,[T] Chemistry I (SSD),[T] Mathematics IB (RKN),,[T] Basic Electrical Engineering (TkD),--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)","[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)",,
-5,btech-EE-1-B,Thu,[T] Basic Electrical Engineering (TkD),,,,--- LUNCH ---,,,,
-5,btech-EE-1-B,Fri,,[T] Basic Electrical Engineering (TkD),[T] Mathematics IB (RKN),[T] Chemistry I (SSD),--- LUNCH ---,[L:113] Chemistry I Lab (Gr-1) (SN),[L:113] Chemistry I Lab (Gr-1) (SN),[L:113] Chemistry I Lab (Gr-1) (SN),
+5,btech-EE-1-B,Mon,[T] Mathematics IB (RKN),[T] Basic Electrical Engineering (TkD),[T] Chemistry I (SSD),[T] Engineering Grapics (HbR),--- LUNCH ---,,,,
+5,btech-EE-1-B,Tue,,,,,--- LUNCH ---,,,,
+5,btech-EE-1-B,Wed,[T] Chemistry I (SSD),[T] Mathematics IB (RKN),,[T] Basic Electrical Engineering (TkD),--- LUNCH ---,[L:113] Chemistry I Lab (Gr-1) (SN),[L:113] Chemistry I Lab (Gr-1) (SN),[L:113] Chemistry I Lab (Gr-1) (SN),
+5,btech-EE-1-B,Thu,[T] Basic Electrical Engineering (TkD),,[T] Mathematics IB (RKN),[T] Chemistry I (SSD),--- LUNCH ---,,,"[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)","[L:114] Basic Electrical Engineering Lab (Gr-1) (SA,AK)"
+5,btech-EE-1-B,Fri,,[T] Chemistry I (SSD),[T] Basic Electrical Engineering (TkD),[T] Mathematics IB (RKN),--- LUNCH ---,[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR),[L:103] Engineering Grapics (HbR)
 
-6,btech-CSE-1-A,Mon,[T] Workshop (SkD),[T] Mathematics IA (GH),[T] Basic Electrical Engineering (TkD),[T] Applied Physics I (RD),--- LUNCH ---,,,,
-6,btech-CSE-1-A,Tue,,,,,--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),
-6,btech-CSE-1-A,Wed,[T] Mathematics IA (GH),,[T] Applied Physics I (RD),[T] Basic Electrical Engineering (TkD),--- LUNCH ---,,,,
-6,btech-CSE-1-A,Thu,[T] Basic Electrical Engineering (TkD),[T] Applied Physics I (RD),[T] Mathematics IA (GH),,--- LUNCH ---,"[L:130] WorKshop (Gr-1) (AbK,PrS)","[L:130] WorKshop (Gr-1) (AbK,PrS)","[L:130] WorKshop (Gr-1) (AbK,PrS)","[L:130] WorKshop (Gr-1) (AbK,PrS)"
-6,btech-CSE-1-A,Fri,[T] Applied Physics I (RD),[T] Basic Electrical Engineering (TkD),,[T] Mathematics IA (GH),--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)","[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)",,
+6,btech-CSE-1-A,Mon,[T] Applied Physics I (RD),[T] Basic Electrical Engineering (TkD),[T] Mathematics IA (GH),[T] Workshop (SkD),--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)","[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)",,
+6,btech-CSE-1-A,Tue,,,,,--- LUNCH ---,,,,
+6,btech-CSE-1-A,Wed,[T] Mathematics IA (GH),[T] Applied Physics I (RD),,[T] Basic Electrical Engineering (TkD),--- LUNCH ---,"[L:130] WorKshop (Gr-1) (AbK,PrS)","[L:130] WorKshop (Gr-1) (AbK,PrS)","[L:130] WorKshop (Gr-1) (AbK,PrS)","[L:130] WorKshop (Gr-1) (AbK,PrS)"
+6,btech-CSE-1-A,Thu,[T] Basic Electrical Engineering (TkD),,[T] Applied Physics I (RD),[T] Mathematics IA (GH),--- LUNCH ---,,,,
+6,btech-CSE-1-A,Fri,,[T] Mathematics IA (GH),[T] Basic Electrical Engineering (TkD),[T] Applied Physics I (RD),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),[L:122] Applied Physics I Lab (Gr-1) (RD),
 
-7,btech-CSE-1-B,Mon,[T] Workshop (SkD),[T] Mathematics IA (GH),[T] Basic Electrical Engineering (TkD),[T] Applied Physics I (RD),--- LUNCH ---,,,,
+7,btech-CSE-1-B,Mon,[T] Applied Physics I (RD),[T] Basic Electrical Engineering (TkD),[T] Mathematics IA (GH),[T] Workshop (SkD),--- LUNCH ---,,,,
 7,btech-CSE-1-B,Tue,,,,,--- LUNCH ---,"[L:130] WorKshop (Gr-1) (SkD,PrS)","[L:130] WorKshop (Gr-1) (SkD,PrS)","[L:130] WorKshop (Gr-1) (SkD,PrS)","[L:130] WorKshop (Gr-1) (SkD,PrS)"
-7,btech-CSE-1-B,Wed,[T] Mathematics IA (GH),,[T] Applied Physics I (RD),[T] Basic Electrical Engineering (TkD),--- LUNCH ---,,,,
-7,btech-CSE-1-B,Thu,[T] Basic Electrical Engineering (TkD),[T] Applied Physics I (RD),[T] Mathematics IA (GH),,--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)","[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)",,
-7,btech-CSE-1-B,Fri,[T] Applied Physics I (RD),[T] Basic Electrical Engineering (TkD),,[T] Mathematics IA (GH),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),
+7,btech-CSE-1-B,Wed,[T] Mathematics IA (GH),[T] Applied Physics I (RD),,[T] Basic Electrical Engineering (TkD),--- LUNCH ---,"[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)","[L:114] Basic Electrical Engineering Lab (Gr-1) (TkD,AB)",,
+7,btech-CSE-1-B,Thu,[T] Basic Electrical Engineering (TkD),,[T] Applied Physics I (RD),[T] Mathematics IA (GH),--- LUNCH ---,[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),[L:122] Applied Physics I Lab (Gr-1) (AP),
+7,btech-CSE-1-B,Fri,,[T] Mathematics IA (GH),[T] Basic Electrical Engineering (TkD),[T] Applied Physics I (RD),--- LUNCH ---,,,,
 
-8,btech-ME-2-A,Mon,[T] Engineering Mechanics (HbM),,,,--- LUNCH ---,"[L:130] Practice for Manufacturing(Gr-1) (DD,PrS)","[L:130] Practice for Manufacturing(Gr-1) (DD,PrS)","[L:130] Practice for Manufacturing(Gr-1) (DD,PrS)",
-8,btech-ME-2-A,Tue,[T] Thermodynamics (SkD),[T] Matematics-III (DG),[T] Engineering Mechanics (HbM),[T] Manufacturing Process (DD),--- LUNCH ---,[T] Basic Electronics Engineering (SrC),,,
-8,btech-ME-2-A,Wed,[T] Biology  (Guest),[T] Engineering Mechanics (HbM),[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),--- LUNCH ---,[T] Matematics-III (DG),,,
-8,btech-ME-2-A,Thu,[T] Manufacturing Process (DD),[T] Basic Electronics Engineering (SrC),[T] Biology  (Guest),[T] Matematics-III (DG),--- LUNCH ---,[T] Thermodynamics (SkD),,,
-8,btech-ME-2-A,Fri,[T] Matematics-III (DG),[T] Biology  (Guest),[T] Basic Electronics Engineering (SrC),[T] Engineering Mechanics (HbM),--- LUNCH ---,[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),,
+8,btech-ME-2-A,Mon,"[L:130] Practice for Manufacturing(Gr-1) (DD,PrS)","[L:130] Practice for Manufacturing(Gr-1) (DD,PrS)","[L:130] Practice for Manufacturing(Gr-1) (DD,PrS)",[T] Engineering Mechanics (HbM),--- LUNCH ---,[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),,
+8,btech-ME-2-A,Tue,[T] Biology  (Guest),[T] Matematics-III (DG),[T] Basic Electronics Engineering (SrC),[T] Thermodynamics (SkD),--- LUNCH ---,[T] Engineering Mechanics (HbM),,,
+8,btech-ME-2-A,Wed,[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),[T] Engineering Mechanics (HbM),[T] Biology  (Guest),--- LUNCH ---,[T] Matematics-III (DG),,,
+8,btech-ME-2-A,Thu,[T] Engineering Mechanics (HbM),[T] Manufacturing Process (DD),[T] Matematics-III (DG),[T] Basic Electronics Engineering (SrC),--- LUNCH ---,[T] Biology  (Guest),,,
+8,btech-ME-2-A,Fri,[T] Thermodynamics (SkD),[T] Basic Electronics Engineering (SrC),[T] Manufacturing Process (DD),[T] Matematics-III (DG),--- LUNCH ---,,,,
 
-9,btech-ME-2-B,Mon,[T] Engineering Mechanics (HbM),"[L:130] Practice for Manufacturing(Gr-1) (AnP,PrS)","[L:130] Practice for Manufacturing(Gr-1) (AnP,PrS)","[L:130] Practice for Manufacturing(Gr-1) (AnP,PrS)",--- LUNCH ---,,,,
-9,btech-ME-2-B,Tue,[T] Thermodynamics (SkD),[T] Matematics-III (DG),[T] Engineering Mechanics (HbM),[T] Manufacturing Process (DD),--- LUNCH ---,[T] Basic Electronics Engineering (SrC),,,
-9,btech-ME-2-B,Wed,[T] Biology  (Guest),[T] Engineering Mechanics (HbM),[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),--- LUNCH ---,[T] Matematics-III (DG),,,
-9,btech-ME-2-B,Thu,[T] Manufacturing Process (DD),[T] Basic Electronics Engineering (SrC),[T] Biology  (Guest),[T] Matematics-III (DG),--- LUNCH ---,[T] Thermodynamics (SkD),,,
-9,btech-ME-2-B,Fri,[T] Matematics-III (DG),[T] Biology  (Guest),[T] Basic Electronics Engineering (SrC),[T] Engineering Mechanics (HbM),--- LUNCH ---,[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),,
+9,btech-ME-2-B,Mon,,,,[T] Engineering Mechanics (HbM),--- LUNCH ---,[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),,
+9,btech-ME-2-B,Tue,[T] Biology  (Guest),[T] Matematics-III (DG),[T] Basic Electronics Engineering (SrC),[T] Thermodynamics (SkD),--- LUNCH ---,[T] Engineering Mechanics (HbM),,,
+9,btech-ME-2-B,Wed,[T] Manufacturing Process (DD),[T] Thermodynamics (SkD),[T] Engineering Mechanics (HbM),[T] Biology  (Guest),--- LUNCH ---,[T] Matematics-III (DG),,,
+9,btech-ME-2-B,Thu,[T] Engineering Mechanics (HbM),[T] Manufacturing Process (DD),[T] Matematics-III (DG),[T] Basic Electronics Engineering (SrC),--- LUNCH ---,[T] Biology  (Guest),,,
+9,btech-ME-2-B,Fri,[T] Thermodynamics (SkD),[T] Basic Electronics Engineering (SrC),[T] Manufacturing Process (DD),[T] Matematics-III (DG),--- LUNCH ---,"[L:130] Practice for Manufacturing(Gr-1) (AnP,PrS)","[L:130] Practice for Manufacturing(Gr-1) (AnP,PrS)","[L:130] Practice for Manufacturing(Gr-1) (AnP,PrS)",
 
-10,btech-CEE-2-A,Mon,[T] Values & Ethics in Profession (AS),[T] Chemistry II (SN),[T] Surveying (PY),[T] Building Material & Construction (HS),--- LUNCH ---,[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),
-10,btech-CEE-2-A,Tue,,[T] Thermodynamics & kinetics (SC),[T] Basic Env Engg and Ele Bio (KP),[T] Surveying (PY),--- LUNCH ---,[T] Chemistry II (SN),[T] Building Material & Construction (HS),,
-10,btech-CEE-2-A,Wed,[T] Basic Env Engg and Ele Bio (KP),[T] Building Material & Construction (HS),[T] Chemistry II (SN),[T] Values & Ethics in Profession (AS),--- LUNCH ---,[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),
-10,btech-CEE-2-A,Thu,[T] Chemistry II (SN),[T] Surveying (PY),[T] Building Material & Construction (HS),[T] Thermodynamics & kinetics (SC),--- LUNCH ---,[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),
-10,btech-CEE-2-A,Fri,[T] Building Material & Construction (HS),[T] Basic Env Engg and Ele Bio (KP),[T] Values & Ethics in Profession (AS),[T] Chemistry II (SN),--- LUNCH ---,[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),
+10,btech-CEE-2-A,Mon,[T] Values & Ethics in Profession (AS),[T] Basic Env Engg and Ele Bio (KP),[T] Building Material & Construction (HS),[T] Chemistry II (SN),--- LUNCH ---,[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),
+10,btech-CEE-2-A,Tue,[T] Basic Env Engg and Ele Bio (KP),[T] Surveying (PY),,[T] Thermodynamics & kinetics (SC),--- LUNCH ---,[T] Building Material & Construction (HS),[T] Chemistry II (SN),,
+10,btech-CEE-2-A,Wed,[T] Surveying (PY),[T] Chemistry II (SN),[T] Thermodynamics & kinetics (SC),[T] Building Material & Construction (HS),--- LUNCH ---,[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),
+10,btech-CEE-2-A,Thu,[T] Chemistry II (SN),[T] Building Material & Construction (HS),[T] Values & Ethics in Profession (AS),[T] Basic Env Engg and Ele Bio (KP),--- LUNCH ---,[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),
+10,btech-CEE-2-A,Fri,[T] Building Material & Construction (HS),[T] Values & Ethics in Profession (AS),[T] Chemistry II (SN),[T] Surveying (PY),--- LUNCH ---,[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),
 
-11,btech-CEE-2-B,Mon,[T] Values & Ethics in Profession (AS),[T] Chemistry II (SN),[T] Surveying (PY),[T] Building Material & Construction (HS),--- LUNCH ---,[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),
-11,btech-CEE-2-B,Tue,,[T] Thermodynamics & kinetics (SC),[T] Basic Env Engg and Ele Bio (KP),[T] Surveying (PY),--- LUNCH ---,[T] Chemistry II (SN),[T] Building Material & Construction (HS),,
-11,btech-CEE-2-B,Wed,[T] Basic Env Engg and Ele Bio (KP),[T] Building Material & Construction (HS),[T] Chemistry II (SN),[T] Values & Ethics in Profession (AS),--- LUNCH ---,[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),
-11,btech-CEE-2-B,Thu,[T] Chemistry II (SN),[T] Surveying (PY),[T] Building Material & Construction (HS),[T] Thermodynamics & kinetics (SC),--- LUNCH ---,[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),
-11,btech-CEE-2-B,Fri,[T] Building Material & Construction (HS),[T] Basic Env Engg and Ele Bio (KP),[T] Values & Ethics in Profession (AS),[T] Chemistry II (SN),--- LUNCH ---,[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),
+11,btech-CEE-2-B,Mon,[T] Values & Ethics in Profession (AS),[T] Basic Env Engg and Ele Bio (KP),[T] Building Material & Construction (HS),[T] Chemistry II (SN),--- LUNCH ---,[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),[L:128] Surveying Practice I (HS),
+11,btech-CEE-2-B,Tue,[T] Basic Env Engg and Ele Bio (KP),[T] Surveying (PY),,[T] Thermodynamics & kinetics (SC),--- LUNCH ---,[T] Building Material & Construction (HS),[T] Chemistry II (SN),,
+11,btech-CEE-2-B,Wed,[T] Surveying (PY),[T] Chemistry II (SN),[T] Thermodynamics & kinetics (SC),[T] Building Material & Construction (HS),--- LUNCH ---,[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),[L:145] Building Design & Drawing (SS),
+11,btech-CEE-2-B,Thu,[T] Chemistry II (SN),[T] Building Material & Construction (HS),[T] Values & Ethics in Profession (AS),[T] Basic Env Engg and Ele Bio (KP),--- LUNCH ---,[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),[L:144] Enviromental Engineering Lab (KP),
+11,btech-CEE-2-B,Fri,[T] Building Material & Construction (HS),[T] Values & Ethics in Profession (AS),[T] Chemistry II (SN),[T] Surveying (PY),--- LUNCH ---,[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),[L:113] Chemistry II Lab (SSD),
 
-12,btech-FET-2-A,Mon,[T] Chemistry for Food (MAM),[T] Engineering Thermodynamics (SKD),[T] Biology for Engineers (Guest),[T] Chemistry for Food Lab  (MAM),--- LUNCH ---,[T] Unit Operation I (VK),,,
-12,btech-FET-2-A,Tue,[T] Food Microbiology (AnS),[T] Chemistry for Food Lab  (MAM),[T] Engineering Thermodynamics (SKD),[T] Unit Operation I (VK),--- LUNCH ---,[T] Chemistry for Food (MAM),,,
-12,btech-FET-2-A,Wed,[T] Unit Operation I (VK),[T] Food Microbiology (AnS),[T] Chemistry II (AM),[T] Biology for Engineers (Guest),--- LUNCH ---,[L:138] Microbiology of Food Lab (AnS),[L:138] Microbiology of Food Lab (AnS),[L:138] Microbiology of Food Lab (AnS),
-12,btech-FET-2-A,Thu,[T] Chemistry for Food Lab  (MAM),[T] Chemistry for Food (MAM),[T] Unit Operation I (VK),[T] Chemistry II (AM),--- LUNCH ---,[T] Food Microbiology (AnS),,,
-12,btech-FET-2-A,Fri,[T] Biology for Engineers (Guest),[T] Chemistry II (AM),[T] Food Microbiology (AnS),[T] Chemistry for Food (MAM),--- LUNCH ---,[T] Engineering Thermodynamics (SKD),,,
+12,btech-FET-2-A,Mon,[T] Unit Operation I (VK),[T] Food Microbiology (AnS),[T] Engineering Thermodynamics (SKD),[T] Chemistry for Food (MAM),--- LUNCH ---,[T] Biology for Engineers (Guest),,,
+12,btech-FET-2-A,Tue,[T] Chemistry II (AM),[T] Biology for Engineers (Guest),[T] Chemistry for Food (MAM),[T] Food Microbiology (AnS),--- LUNCH ---,[T] Engineering Thermodynamics (SKD),,,
+12,btech-FET-2-A,Wed,[T] Engineering Thermodynamics (SKD),[T] Unit Operation I (VK),[T] Chemistry for Food Lab  (MAM),[T] Chemistry II (AM),--- LUNCH ---,[L:138] Microbiology of Food Lab (AnS),[L:138] Microbiology of Food Lab (AnS),[L:138] Microbiology of Food Lab (AnS),
+12,btech-FET-2-A,Thu,[T] Chemistry for Food Lab  (MAM),[T] Chemistry for Food (MAM),[T] Food Microbiology (AnS),[T] Biology for Engineers (Guest),--- LUNCH ---,[T] Unit Operation I (VK),,,
+12,btech-FET-2-A,Fri,[T] Food Microbiology (AnS),[T] Chemistry for Food Lab  (MAM),[T] Chemistry II (AM),[T] Unit Operation I (VK),--- LUNCH ---,[T] Chemistry for Food (MAM),,,
 
-13,btech-EE-2-A,Mon,[T] Engineering Mechanics (TnS),[T] Biology for Engineers (Guest),[T] Mathematics-III (BKT),[T] Electric Circuit Theory (RK),--- LUNCH ---,,,,
-13,btech-EE-2-A,Tue,[T] Biology for Engineers (Guest),[T] Electromagnetic Field Theory (GG),[T] Indian Contitution (AS),[T] Analog Electronics (AR),--- LUNCH ---,"[L:106] Analog Electronics Lab (AR,AB)","[L:106] Analog Electronics Lab (AR,AB)","[L:115] Numerical Methods Laboratory(Gr-1) (TKO,SNM)","[L:115] Numerical Methods Laboratory(Gr-1) (TKO,SNM)"
-13,btech-EE-2-A,Wed,[T] Electric Circuit Theory (RK),[T] Analog Electronics (AR),[T] Engineering Mechanics (TnS),[T] Electromagnetic Field Theory (GG),--- LUNCH ---,"[L:116] Electric Circuit Theory Lab (RK,AB)","[L:116] Electric Circuit Theory Lab (RK,AB)",,
-13,btech-EE-2-A,Thu,[T] Indian Contitution (AS),[T] Mathematics-III (BKT),[T] Electric Circuit Theory (RK),[T] Engineering Mechanics (TnS),--- LUNCH ---,[T] Analog Electronics (AR),,,
-13,btech-EE-2-A,Fri,[T] Electromagnetic Field Theory (GG),[T] Indian Contitution (AS),[T] Biology for Engineers (Guest),[T] Mathematics-III (BKT),--- LUNCH ---,[T] Electric Circuit Theory (RK),,,
+13,btech-EE-2-A,Mon,[T] Electromagnetic Field Theory (GG),[T] Indian Contitution (AS),[T] Engineering Mechanics (TnS),[T] Biology for Engineers (Guest),--- LUNCH ---,[T] Analog Electronics (AR),,,
+13,btech-EE-2-A,Tue,[T] Indian Contitution (AS),[T] Mathematics-III (BKT),[T] Electric Circuit Theory (RK),[T] Electromagnetic Field Theory (GG),--- LUNCH ---,"[L:116] Electric Circuit Theory Lab (RK,AB)","[L:116] Electric Circuit Theory Lab (RK,AB)",,
+13,btech-EE-2-A,Wed,[T] Electric Circuit Theory (RK),[T] Biology for Engineers (Guest),[T] Indian Contitution (AS),[T] Analog Electronics (AR),--- LUNCH ---,[T] Mathematics-III (BKT),,,
+13,btech-EE-2-A,Thu,[T] Analog Electronics (AR),[T] Engineering Mechanics (TnS),[T] Electromagnetic Field Theory (GG),[T] Electric Circuit Theory (RK),--- LUNCH ---,"[L:115] Numerical Methods Laboratory(Gr-1) (TKO,SNM)","[L:115] Numerical Methods Laboratory(Gr-1) (TKO,SNM)",,
+13,btech-EE-2-A,Fri,[T] Engineering Mechanics (TnS),[T] Electric Circuit Theory (RK),[T] Biology for Engineers (Guest),[T] Mathematics-III (BKT),--- LUNCH ---,"[L:106] Analog Electronics Lab (AR,AB)","[L:106] Analog Electronics Lab (AR,AB)",,
 
-14,btech-EE-2-B,Mon,[T] Engineering Mechanics (TnS),[T] Biology for Engineers (Guest),[T] Mathematics-III (BKT),[T] Electric Circuit Theory (RK),--- LUNCH ---,"[L:116] Electric Circuit Theory Lab (RK,AB)","[L:116] Electric Circuit Theory Lab (RK,AB)",,
-14,btech-EE-2-B,Tue,[T] Biology for Engineers (Guest),[T] Electromagnetic Field Theory (GG),[T] Indian Contitution (AS),[T] Analog Electronics (AR),--- LUNCH ---,"[L:115] Numerical Methods Laboratory(Gr-1) (SuB,PPS)","[L:115] Numerical Methods Laboratory(Gr-1) (SuB,PPS)",,
-14,btech-EE-2-B,Wed,[T] Electric Circuit Theory (RK),[T] Analog Electronics (AR),[T] Engineering Mechanics (TnS),[T] Electromagnetic Field Theory (GG),--- LUNCH ---,,,,
-14,btech-EE-2-B,Thu,[T] Indian Contitution (AS),[T] Mathematics-III (BKT),[T] Electric Circuit Theory (RK),[T] Engineering Mechanics (TnS),--- LUNCH ---,[T] Analog Electronics (AR),,"[L:106] Analog Electronics Lab (AR,AB)","[L:106] Analog Electronics Lab (AR,AB)"
-14,btech-EE-2-B,Fri,[T] Electromagnetic Field Theory (GG),[T] Indian Contitution (AS),[T] Biology for Engineers (Guest),[T] Mathematics-III (BKT),--- LUNCH ---,[T] Electric Circuit Theory (RK),,,
+14,btech-EE-2-B,Mon,[T] Electromagnetic Field Theory (GG),[T] Indian Contitution (AS),[T] Engineering Mechanics (TnS),[T] Biology for Engineers (Guest),--- LUNCH ---,[T] Analog Electronics (AR),,,
+14,btech-EE-2-B,Tue,[T] Indian Contitution (AS),[T] Mathematics-III (BKT),[T] Electric Circuit Theory (RK),[T] Electromagnetic Field Theory (GG),--- LUNCH ---,"[L:115] Numerical Methods Laboratory(Gr-1) (SuB,PPS)","[L:115] Numerical Methods Laboratory(Gr-1) (SuB,PPS)",,
+14,btech-EE-2-B,Wed,[T] Electric Circuit Theory (RK),[T] Biology for Engineers (Guest),[T] Indian Contitution (AS),[T] Analog Electronics (AR),--- LUNCH ---,[T] Mathematics-III (BKT),,,
+14,btech-EE-2-B,Thu,[T] Analog Electronics (AR),[T] Engineering Mechanics (TnS),[T] Electromagnetic Field Theory (GG),[T] Electric Circuit Theory (RK),--- LUNCH ---,"[L:106] Analog Electronics Lab (AR,AB)","[L:106] Analog Electronics Lab (AR,AB)",,
+14,btech-EE-2-B,Fri,[T] Engineering Mechanics (TnS),[T] Electric Circuit Theory (RK),[T] Biology for Engineers (Guest),[T] Mathematics-III (BKT),--- LUNCH ---,,,"[L:116] Electric Circuit Theory Lab (RK,AB)","[L:116] Electric Circuit Theory Lab (RK,AB)"
 
-15,btech-CSE-2-A,Mon,"[L:124] IT Workshop (Gr-1) (SDM,SNM)","[L:124] IT Workshop (Gr-1) (SDM,SNM)",,[T] DSA (IW),--- LUNCH ---,,,,
-15,btech-CSE-2-A,Tue,[T] Computer Organisation (SR),,[T] Analog & Digital Electronics (SrC),,--- LUNCH ---,,,,
-15,btech-CSE-2-A,Wed,[T] Analog & Digital Electronics (SrC),[T] Linear Algebra (GH),[T] Economics (PS),[T] Computer Organisation (SR),--- LUNCH ---,"[L:115] DSA Lab (Gr-1) (IW,SNM)","[L:115] DSA Lab (Gr-1) (IW,SNM)","[L:106] Analog & Digital Electronics (Gr-1) (SrC,MA)","[L:106] Analog & Digital Electronics (Gr-1) (SrC,MA)"
-15,btech-CSE-2-A,Thu,,[T] Computer Organisation (SR),[T] DSA (IW),[T] Economics (PS),--- LUNCH ---,,,"[L:124] IT Workshop (Gr-1) (SDM,SNM)","[L:124] IT Workshop (Gr-1) (SDM,SNM)"
-15,btech-CSE-2-A,Fri,[T] DSA (IW),[T] Economics (PS),[T] Linear Algebra (GH),[T] Analog & Digital Electronics (SrC),--- LUNCH ---,"[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)","[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)","[L:115] DSA Lab (Gr-1) (IW,SNM)","[L:115] DSA Lab (Gr-1) (IW,SNM)"
+15,btech-CSE-2-A,Mon,"[L:124] IT Workshop (Gr-1) (SDM,SNM)","[L:124] IT Workshop (Gr-1) (SDM,SNM)",[T] DSA (IW),[T] Linear Algebra (GH),--- LUNCH ---,,,,
+15,btech-CSE-2-A,Tue,[T] Economics (PS),[T] Linear Algebra (GH),[T] Computer Organisation (SR),[T] Analog & Digital Electronics (SrC),--- LUNCH ---,,,"[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)","[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)"
+15,btech-CSE-2-A,Wed,[T] Computer Organisation (SR),[T] Analog & Digital Electronics (SrC),,[T] DSA (IW),--- LUNCH ---,"[L:115] DSA Lab (Gr-1) (IW,SNM)","[L:115] DSA Lab (Gr-1) (IW,SNM)","[L:124] IT Workshop (Gr-1) (SDM,SNM)","[L:124] IT Workshop (Gr-1) (SDM,SNM)"
+15,btech-CSE-2-A,Thu,[T] DSA (IW),[T] Economics (PS),,,--- LUNCH ---,,,"[L:106] Analog & Digital Electronics (Gr-1) (SrC,MA)","[L:106] Analog & Digital Electronics (Gr-1) (SrC,MA)"
+15,btech-CSE-2-A,Fri,[T] Analog & Digital Electronics (SrC),[T] Computer Organisation (SR),,[T] Economics (PS),--- LUNCH ---,"[L:115] DSA Lab (Gr-1) (IW,SNM)","[L:115] DSA Lab (Gr-1) (IW,SNM)",,
 
-16,btech-CSE-2-B,Mon,,,,[T] DSA (IW),--- LUNCH ---,"[L:115] DSA Lab (Gr-1) (BPT,SNM)","[L:115] DSA Lab (Gr-1) (BPT,SNM)",,
-16,btech-CSE-2-B,Tue,[T] Computer Organisation (SR),,[T] Analog & Digital Electronics (SrC),,--- LUNCH ---,"[L:124] IT Workshop (Gr-1) (TKO,SNM)","[L:124] IT Workshop (Gr-1) (TKO,SNM)","[L:106] Analog & Digital Electronics (Gr-1) (RK,AK)","[L:106] Analog & Digital Electronics (Gr-1) (RK,AK)"
-16,btech-CSE-2-B,Wed,[T] Analog & Digital Electronics (SrC),[T] Linear Algebra (GH),[T] Economics (PS),[T] Computer Organisation (SR),--- LUNCH ---,"[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)","[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)",,
-16,btech-CSE-2-B,Thu,,[T] Computer Organisation (SR),[T] DSA (IW),[T] Economics (PS),--- LUNCH ---,"[L:115] DSA Lab (Gr-1) (BPT,SNM)","[L:115] DSA Lab (Gr-1) (BPT,SNM)",,
-16,btech-CSE-2-B,Fri,[T] DSA (IW),[T] Economics (PS),[T] Linear Algebra (GH),[T] Analog & Digital Electronics (SrC),--- LUNCH ---,"[L:124] IT Workshop (Gr-1) (TKO,SNM)","[L:124] IT Workshop (Gr-1) (TKO,SNM)",,
+16,btech-CSE-2-B,Mon,,,[T] DSA (IW),[T] Linear Algebra (GH),--- LUNCH ---,"[L:115] DSA Lab (Gr-1) (BPT,SNM)","[L:115] DSA Lab (Gr-1) (BPT,SNM)","[L:124] IT Workshop (Gr-1) (TKO,SNM)","[L:124] IT Workshop (Gr-1) (TKO,SNM)"
+16,btech-CSE-2-B,Tue,[T] Economics (PS),[T] Linear Algebra (GH),[T] Computer Organisation (SR),[T] Analog & Digital Electronics (SrC),--- LUNCH ---,,,"[L:106] Analog & Digital Electronics (Gr-1) (RK,AK)","[L:106] Analog & Digital Electronics (Gr-1) (RK,AK)"
+16,btech-CSE-2-B,Wed,[T] Computer Organisation (SR),[T] Analog & Digital Electronics (SrC),,[T] DSA (IW),--- LUNCH ---,"[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)","[L:123] Computer Organisation Lab (Gr-1) (SR,PPS)",,
+16,btech-CSE-2-B,Thu,[T] DSA (IW),[T] Economics (PS),"[L:124] IT Workshop (Gr-1) (TKO,SNM)","[L:124] IT Workshop (Gr-1) (TKO,SNM)",--- LUNCH ---,,,,
+16,btech-CSE-2-B,Fri,[T] Analog & Digital Electronics (SrC),[T] Computer Organisation (SR),,[T] Economics (PS),--- LUNCH ---,,,"[L:115] DSA Lab (Gr-1) (BPT,SNM)","[L:115] DSA Lab (Gr-1) (BPT,SNM)"
 
-17,btech-ME-3-A,Mon,[T] Effe. Technical Communication (CD),[T] Solid Mechanics (MJK),[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),--- LUNCH ---,,,,
-17,btech-ME-3-A,Tue,[T] Heat Transfer (MJK),"[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)",--- LUNCH ---,"[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)",
-17,btech-ME-3-A,Wed,[T] Solid Mechanics (MJK),[T] Heat Transfer (MJK),[T] Effe. Technical Communication (CD),[T] Kinematics & TOM (HbR),--- LUNCH ---,,,,
-17,btech-ME-3-A,Thu,[T] Kinematics & TOM (HbR),[T] Effe. Technical Communication (CD),[T] Solid Mechanics (MJK),[T] Essence of Indian Knowledge Tradition (AS),--- LUNCH ---,,,,
-17,btech-ME-3-A,Fri,[T] Essence of Indian Knowledge Tradition (AS),[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),[T] Solid Mechanics (MJK),--- LUNCH ---,,,,
+17,btech-ME-3-A,Mon,[T] Solid Mechanics (MJK),[T] Effe. Technical Communication (CD),[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),--- LUNCH ---,,,,
+17,btech-ME-3-A,Tue,,[T] Solid Mechanics (MJK),[T] Heat Transfer (MJK),[T] Effe. Technical Communication (CD),--- LUNCH ---,,,,
+17,btech-ME-3-A,Wed,[T] Effe. Technical Communication (CD),[T] Kinematics & TOM (HbR),,[T] Solid Mechanics (MJK),--- LUNCH ---,,,,
+17,btech-ME-3-A,Thu,[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),[T] Solid Mechanics (MJK),[T] Essence of Indian Knowledge Tradition (AS),--- LUNCH ---,"[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)",
+17,btech-ME-3-A,Fri,[T] Heat Transfer (MJK),,[T] Essence of Indian Knowledge Tradition (AS),[T] Kinematics & TOM (HbR),--- LUNCH ---,"[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)",
 
-18,btech-ME-3-B,Mon,[T] Effe. Technical Communication (CD),[T] Solid Mechanics (MJK),[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),--- LUNCH ---,"[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)",
-18,btech-ME-3-B,Tue,[T] Heat Transfer (MJK),,,,--- LUNCH ---,,,,
-18,btech-ME-3-B,Wed,[T] Solid Mechanics (MJK),[T] Heat Transfer (MJK),[T] Effe. Technical Communication (CD),[T] Kinematics & TOM (HbR),--- LUNCH ---,"[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)",
-18,btech-ME-3-B,Thu,[T] Kinematics & TOM (HbR),[T] Effe. Technical Communication (CD),[T] Solid Mechanics (MJK),[T] Essence of Indian Knowledge Tradition (AS),--- LUNCH ---,,,,
-18,btech-ME-3-B,Fri,[T] Essence of Indian Knowledge Tradition (AS),[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),[T] Solid Mechanics (MJK),--- LUNCH ---,,,,
+18,btech-ME-3-B,Mon,[T] Solid Mechanics (MJK),[T] Effe. Technical Communication (CD),[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),--- LUNCH ---,"[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)","[L:133] Machine Drawing II (NM,PbM)",
+18,btech-ME-3-B,Tue,,[T] Solid Mechanics (MJK),[T] Heat Transfer (MJK),[T] Effe. Technical Communication (CD),--- LUNCH ---,,,,
+18,btech-ME-3-B,Wed,[T] Effe. Technical Communication (CD),[T] Kinematics & TOM (HbR),,[T] Solid Mechanics (MJK),--- LUNCH ---,,,,
+18,btech-ME-3-B,Thu,[T] Kinematics & TOM (HbR),[T] Heat Transfer (MJK),[T] Solid Mechanics (MJK),[T] Essence of Indian Knowledge Tradition (AS),--- LUNCH ---,,,,
+18,btech-ME-3-B,Fri,[T] Heat Transfer (MJK),,[T] Essence of Indian Knowledge Tradition (AS),[T] Kinematics & TOM (HbR),--- LUNCH ---,"[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)","[L:131] Mech. Eng. Lab(Thermal) (MJK,SbK)",
 
-19,btech-CEE-3-A,Mon,[T] Economics (PS),[T] Engineering geology-A (SB),[T] Concrete Technology B (HR),[T] Design of RC Structures B (SS),--- LUNCH ---,[T] Unit Operation II (SC),[T] Engineering geology-B (HR),,
-19,btech-CEE-3-A,Tue,[T] Design of RC Structures A (SB),[T] Concrete Technology A (SS),[T] Engineering geology-A (SB),[T] Concrete Technology B (HR),--- LUNCH ---,[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),
-19,btech-CEE-3-A,Wed,[T] Engineering geology-A (SB),[T] Concrete Technology B (HR),[T] Design of RC Structures B (SS),[T] Design of RC Structures A (SB),--- LUNCH ---,[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),
-19,btech-CEE-3-A,Thu,[T] Concrete Technology A (SS),[T] Unit Operation II (SC),[T] Design of RC Structures A (SB),[T] Engineering geology-B (HR),--- LUNCH ---,[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),
-19,btech-CEE-3-A,Fri,[T] Unit Operation II (SC),[T] Design of RC Structures B (SS),[T] Engineering geology-B (HR),[T] Concrete Technology A (SS),--- LUNCH ---,[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),
+19,btech-CEE-3-A,Mon,[T] Concrete Technology A (SS),[T] Concrete Technology B (HR),[T] Engineering geology-B (HR),[T] Design of RC Structures B (SS),--- LUNCH ---,[T] Engineering geology-A (SB),[T] Economics (PS),,
+19,btech-CEE-3-A,Tue,[T] Design of RC Structures A (SB),[T] Concrete Technology A (SS),[T] Design of RC Structures B (SS),[T] Concrete Technology B (HR),--- LUNCH ---,[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),
+19,btech-CEE-3-A,Wed,[T] Design of RC Structures B (SS),[T] Engineering geology-B (HR),[T] Design of RC Structures A (SB),[T] Unit Operation II (SC),--- LUNCH ---,[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),
+19,btech-CEE-3-A,Thu,[T] Concrete Technology B (HR),[T] Engineering geology-A (SB),[T] Unit Operation II (SC),[T] Concrete Technology A (SS),--- LUNCH ---,[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),
+19,btech-CEE-3-A,Fri,[T] Unit Operation II (SC),[T] Design of RC Structures A (SB),[T] Engineering geology-A (SB),[T] Engineering geology-B (HR),--- LUNCH ---,[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),
 
-20,btech-CEE-3-B,Mon,[T] Economics (PS),[T] Engineering geology-A (SB),[T] Concrete Technology B (HR),[T] Design of RC Structures B (SS),--- LUNCH ---,[T] Unit Operation II (SC),[T] Engineering geology-B (HR),,
-20,btech-CEE-3-B,Tue,[T] Design of RC Structures A (SB),[T] Concrete Technology A (SS),[T] Engineering geology-A (SB),[T] Concrete Technology B (HR),--- LUNCH ---,[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),
-20,btech-CEE-3-B,Wed,[T] Engineering geology-A (SB),[T] Concrete Technology B (HR),[T] Design of RC Structures B (SS),[T] Design of RC Structures A (SB),--- LUNCH ---,[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),
-20,btech-CEE-3-B,Thu,[T] Concrete Technology A (SS),[T] Unit Operation II (SC),[T] Design of RC Structures A (SB),[T] Engineering geology-B (HR),--- LUNCH ---,[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),
-20,btech-CEE-3-B,Fri,[T] Unit Operation II (SC),[T] Design of RC Structures B (SS),[T] Engineering geology-B (HR),[T] Concrete Technology A (SS),--- LUNCH ---,[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),
+20,btech-CEE-3-B,Mon,[T] Concrete Technology A (SS),[T] Concrete Technology B (HR),[T] Engineering geology-B (HR),[T] Design of RC Structures B (SS),--- LUNCH ---,[T] Engineering geology-A (SB),[T] Economics (PS),,
+20,btech-CEE-3-B,Tue,[T] Design of RC Structures A (SB),[T] Concrete Technology A (SS),[T] Design of RC Structures B (SS),[T] Concrete Technology B (HR),--- LUNCH ---,[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),[L:126] Concrete Laboratory (SS),
+20,btech-CEE-3-B,Wed,[T] Design of RC Structures B (SS),[T] Engineering geology-B (HR),[T] Design of RC Structures A (SB),[T] Unit Operation II (SC),--- LUNCH ---,[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),[L:144] Engineering Geology Lab (SB),
+20,btech-CEE-3-B,Thu,[T] Concrete Technology B (HR),[T] Engineering geology-A (SB),[T] Unit Operation II (SC),[T] Concrete Technology A (SS),--- LUNCH ---,[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),[L:127] Soil Mechanics Lab II (HR),
+20,btech-CEE-3-B,Fri,[T] Unit Operation II (SC),[T] Design of RC Structures A (SB),[T] Engineering geology-A (SB),[T] Engineering geology-B (HR),--- LUNCH ---,[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),[L:129] Quantity Surveying (KP),
 
-21,btech-FET-3-A,Mon,[T] Food Processing Technology II (SKD),[T] Food Processing Technology I (MAM),[T] Fermentation Technology (AnS),[T] Food Process Engineering (KKD),--- LUNCH ---,[L:141] Food Analysis and Quality Control Lab (SKD),[L:141] Food Analysis and Quality Control Lab (SKD),[L:141] Food Analysis and Quality Control Lab (SKD),[L:141] Food Analysis and Quality Control Lab (SKD)
-21,btech-FET-3-A,Tue,[T] Economics (PS),[T] Renewable Energy (ABD),[T] Food Processing Technology I (MAM),[T] Food Processing Technology II (SKD),--- LUNCH ---,,,,
-21,btech-FET-3-A,Wed,[T] Food Process Engineering (KKD),[T] Economics (PS),[T] Constitution (AS),[T] Fermentation Technology (AnS),--- LUNCH ---,[T] Renewable Energy (ABD),,,
-21,btech-FET-3-A,Thu,[T] Fermentation Technology (AnS),[T] Constitution (AS),[T] Food Process Engineering (KKD),[T] Food Processing Technology I (MAM),--- LUNCH ---,[L:143] Food Enginnering Lab (SC),[L:143] Food Enginnering Lab (SC),[L:143] Food Enginnering Lab (SC),[L:143] Food Enginnering Lab (SC)
-21,btech-FET-3-A,Fri,[T] Food Processing Technology I (MAM),[T] Food Processing Technology II (SKD),[T] Renewable Energy (ABD),[T] Constitution (AS),--- LUNCH ---,,,,
+21,btech-FET-3-A,Mon,[T] Food Processing Technology I (MAM),[T] Food Processing Technology II (SKD),[T] Constitution (AS),[T] Economics (PS),--- LUNCH ---,,,,
+21,btech-FET-3-A,Tue,[T] Food Processing Technology II (SKD),[T] Renewable Energy (ABD),[T] Food Process Engineering (KKD),[T] Constitution (AS),--- LUNCH ---,[T] Food Processing Technology I (MAM),,,
+21,btech-FET-3-A,Wed,[T] Fermentation Technology (AnS),[T] Constitution (AS),[T] Renewable Energy (ABD),[T] Food Process Engineering (KKD),--- LUNCH ---,[L:141] Food Analysis and Quality Control Lab (SKD),[L:141] Food Analysis and Quality Control Lab (SKD),[L:141] Food Analysis and Quality Control Lab (SKD),[L:141] Food Analysis and Quality Control Lab (SKD)
+21,btech-FET-3-A,Thu,[T] Economics (PS),[T] Fermentation Technology (AnS),[T] Food Processing Technology I (MAM),[T] Food Processing Technology II (SKD),--- LUNCH ---,,,,
+21,btech-FET-3-A,Fri,[T] Renewable Energy (ABD),[T] Food Process Engineering (KKD),[T] Fermentation Technology (AnS),[T] Food Processing Technology I (MAM),--- LUNCH ---,[L:143] Food Enginnering Lab (SC),[L:143] Food Enginnering Lab (SC),[L:143] Food Enginnering Lab (SC),[L:143] Food Enginnering Lab (SC)
 
-22,btech-EE-3-A,Mon,,[T] Electrical Machine II (GG),[T] DSA (SuB),,--- LUNCH ---,"[L:117] Electrical Machine II Lab (SnC,AK)","[L:117] Electrical Machine II Lab (SnC,AK)",,
-22,btech-EE-3-A,Tue,[T] Renewable & NC Energy (SA),[T] Power System I (SrC),[T] Power Electronics (SnC),[T] Control System (RRK),--- LUNCH ---,"[L:119] Power Electronics Lab (RRK,AK)","[L:119] Power Electronics Lab (RRK,AK)",,
-22,btech-EE-3-A,Wed,[T] Control System (RRK),[T] Power Electronics (SnC),[T] Renewable & NC Energy (SA),[T] Power System I (SrC),--- LUNCH ---,"[L:118] Control System Lab (GG,MA)","[L:118] Control System Lab (GG,MA)",,
-22,btech-EE-3-A,Thu,[T] Power System I (SrC),[T] DSA (SuB),[T] Control System (RRK),[T] Electrical Machine II (GG),--- LUNCH ---,,,,
-22,btech-EE-3-A,Fri,[T] Power Electronics (SnC),[T] Renewable & NC Energy (SA),[T] Electrical Machine II (GG),[T] DSA (SuB),--- LUNCH ---,"[L:120] Power System I Lab (SrC,MA)","[L:120] Power System I Lab (SrC,MA)",,
+22,btech-EE-3-A,Mon,[T] DSA (SuB),[T] Control System (RRK),[T] Power System I (SrC),[T] Power Electronics (SnC),--- LUNCH ---,"[L:117] Electrical Machine II Lab (SnC,AK)","[L:117] Electrical Machine II Lab (SnC,AK)",,
+22,btech-EE-3-A,Tue,,[T] Power System I (SrC),[T] DSA (SuB),[T] Renewable & NC Energy (SA),--- LUNCH ---,"[L:119] Power Electronics Lab (RRK,AK)","[L:119] Power Electronics Lab (RRK,AK)",,
+22,btech-EE-3-A,Wed,[T] Power System I (SrC),[T] Renewable & NC Energy (SA),,[T] Electrical Machine II (GG),--- LUNCH ---,"[L:120] Power System I Lab (SrC,MA)","[L:120] Power System I Lab (SrC,MA)",,
+22,btech-EE-3-A,Thu,[T] Power Electronics (SnC),[T] Electrical Machine II (GG),[T] Control System (RRK),[T] DSA (SuB),--- LUNCH ---,"[L:118] Control System Lab (GG,MA)","[L:118] Control System Lab (GG,MA)",,
+22,btech-EE-3-A,Fri,[T] Electrical Machine II (GG),[T] Power Electronics (SnC),[T] Renewable & NC Energy (SA),[T] Control System (RRK),--- LUNCH ---,,,,
 
-23,btech-EE-3-B,Mon,,[T] Electrical Machine II (GG),[T] DSA (SuB),,--- LUNCH ---,,,"[L:120] Power System I Lab (SrC,MA)","[L:120] Power System I Lab (SrC,MA)"
-23,btech-EE-3-B,Tue,[T] Renewable & NC Energy (SA),[T] Power System I (SrC),[T] Power Electronics (SnC),[T] Control System (RRK),--- LUNCH ---,,,,
-23,btech-EE-3-B,Wed,[T] Control System (RRK),[T] Power Electronics (SnC),[T] Renewable & NC Energy (SA),[T] Power System I (SrC),--- LUNCH ---,,,,
-23,btech-EE-3-B,Thu,[T] Power System I (SrC),[T] DSA (SuB),[T] Control System (RRK),[T] Electrical Machine II (GG),--- LUNCH ---,"[L:118] Control System Lab (GG,MA)","[L:118] Control System Lab (GG,MA)","[L:117] Electrical Machine II Lab (SnC,AK)","[L:117] Electrical Machine II Lab (SnC,AK)"
-23,btech-EE-3-B,Fri,[T] Power Electronics (SnC),[T] Renewable & NC Energy (SA),[T] Electrical Machine II (GG),[T] DSA (SuB),--- LUNCH ---,"[L:119] Power Electronics Lab (RRK,AK)","[L:119] Power Electronics Lab (RRK,AK)",,
+23,btech-EE-3-B,Mon,[T] DSA (SuB),[T] Control System (RRK),[T] Power System I (SrC),[T] Power Electronics (SnC),--- LUNCH ---,"[L:118] Control System Lab (GG,MA)","[L:118] Control System Lab (GG,MA)","[L:117] Electrical Machine II Lab (SnC,AK)","[L:117] Electrical Machine II Lab (SnC,AK)"
+23,btech-EE-3-B,Tue,,[T] Power System I (SrC),[T] DSA (SuB),[T] Renewable & NC Energy (SA),--- LUNCH ---,,,,
+23,btech-EE-3-B,Wed,[T] Power System I (SrC),[T] Renewable & NC Energy (SA),,[T] Electrical Machine II (GG),--- LUNCH ---,"[L:119] Power Electronics Lab (RRK,AK)","[L:119] Power Electronics Lab (RRK,AK)",,
+23,btech-EE-3-B,Thu,[T] Power Electronics (SnC),[T] Electrical Machine II (GG),[T] Control System (RRK),[T] DSA (SuB),--- LUNCH ---,,,,
+23,btech-EE-3-B,Fri,[T] Electrical Machine II (GG),[T] Power Electronics (SnC),[T] Renewable & NC Energy (SA),[T] Control System (RRK),--- LUNCH ---,"[L:120] Power System I Lab (SrC,MA)","[L:120] Power System I Lab (SrC,MA)",,
 
-24,btech-CSE-3-A,Mon,[T] Object Oriented Programming (SUD),[T] Intro to industrial management (TnS),[T] Operating System (SDM),[T] Probability & Statistics (DG),--- LUNCH ---,"[L:124] Machine Learning Lab (IW,PPS)","[L:124] Machine Learning Lab (IW,PPS)","[L:124] Operating System Lab (SuB,PPS)","[L:124] Operating System Lab (SuB,PPS)"
-24,btech-CSE-3-A,Tue,[T] Intro to Machine Learning (IW),[T] Object Oriented Programming (SUD),"[L:124] OOP & Java Lab (SUD,SNM)","[L:124] OOP & Java Lab (SUD,SNM)",--- LUNCH ---,,,,
-24,btech-CSE-3-A,Wed,[T] Operating System (SDM),[T] Intro to Machine Learning (IW),[T] Probability & Statistics (DG),[T] Intro to industrial management (TnS),--- LUNCH ---,,,"[L:124] Machine Learning Lab (IW,PPS)","[L:124] Machine Learning Lab (IW,PPS)"
-24,btech-CSE-3-A,Thu,[T] Probability & Statistics (DG),,[T] Intro to industrial management (TnS),[T] Object Oriented Programming (SUD),--- LUNCH ---,"[L:124] Operating System Lab (SuB,PPS)","[L:124] Operating System Lab (SuB,PPS)",,
-24,btech-CSE-3-A,Fri,"[L:124] OOP & Java Lab (SUD,SNM)","[L:124] OOP & Java Lab (SUD,SNM)",[T] Intro to Machine Learning (IW),[T] Operating System (SDM),--- LUNCH ---,,,,
+24,btech-CSE-3-A,Mon,[T] Intro to Machine Learning (IW),[T] Intro to industrial management (TnS),"[L:124] OOP & Java Lab (SUD,SNM)","[L:124] OOP & Java Lab (SUD,SNM)",--- LUNCH ---,"[L:124] Machine Learning Lab (IW,PPS)","[L:124] Machine Learning Lab (IW,PPS)",,
+24,btech-CSE-3-A,Tue,[T] Probability & Statistics (DG),[T] Intro to Machine Learning (IW),[T] Object Oriented Programming (SUD),[T] Operating System (SDM),--- LUNCH ---,"[L:124] OOP & Java Lab (SUD,SNM)","[L:124] OOP & Java Lab (SUD,SNM)",,
+24,btech-CSE-3-A,Wed,,[T] Object Oriented Programming (SUD),[T] Operating System (SDM),[T] Probability & Statistics (DG),--- LUNCH ---,,,,
+24,btech-CSE-3-A,Thu,[T] Operating System (SDM),[T] Probability & Statistics (DG),[T] Intro to industrial management (TnS),[T] Object Oriented Programming (SUD),--- LUNCH ---,"[L:124] Machine Learning Lab (IW,PPS)","[L:124] Machine Learning Lab (IW,PPS)","[L:124] Operating System Lab (SuB,PPS)","[L:124] Operating System Lab (SuB,PPS)"
+24,btech-CSE-3-A,Fri,,,[T] Intro to Machine Learning (IW),[T] Intro to industrial management (TnS),--- LUNCH ---,"[L:124] Operating System Lab (SuB,PPS)","[L:124] Operating System Lab (SuB,PPS)",,
 
-25,btech-ME-4-A,Mon,[T] Mechanical Vibration (DS),[T] CAD-CAM (HbM),[T] Advanced Weilding technolog (TnS),[T] Advance Manufacturing Technology (DD),--- LUNCH ---,[T] Automobile Engineering (NM),,,
-25,btech-ME-4-A,Tue,[T] Advance Manufacturing Technology (DD),[T] Non-Conventional Energy (SkD),[T] Industrial Engineering (AnP),[T] Automobile Engineering (NM),--- LUNCH ---,[T] Economics (PS),,,
-25,btech-ME-4-A,Wed,[T] Non-Conventional Energy (SkD),[T] Advance Manufacturing Technology (DD),[T] Automobile Engineering (NM),[T] Industrial Engineering (AnP),--- LUNCH ---,[T] CAD-CAM (HbM),,,
-25,btech-ME-4-A,Thu,[T] Advanced Weilding technolog (TnS),[T] Economics (PS),[T] Mechanical Vibration (DS),[T] CAD-CAM (HbM),--- LUNCH ---,"[L:135] Mechanical Engineering Lab III (DD,SdC)","[L:135] Mechanical Engineering Lab III (DD,SdC)","[L:135] Mechanical Engineering Lab III (DD,SdC)",
-25,btech-ME-4-A,Fri,[T] Industrial Engineering (AnP),[T] Mechanical Vibration (DS),[T] Economics (PS),[T] Non-Conventional Energy (SkD),--- LUNCH ---,[T] Advanced Weilding technolog (TnS),,,
+25,btech-ME-4-A,Mon,[T] CAD-CAM (HbM),[T] Automobile Engineering (NM),[T] Industrial Engineering (AnP),[T] Advanced Weilding technolog (TnS),--- LUNCH ---,[T] Mechanical Vibration (DS),,,
+25,btech-ME-4-A,Tue,[T] Industrial Engineering (AnP),[T] CAD-CAM (HbM),[T] Advance Manufacturing Technology (DD),[T] Economics (PS),--- LUNCH ---,"[L:135] Mechanical Engineering Lab III (DD,SdC)","[L:135] Mechanical Engineering Lab III (DD,SdC)","[L:135] Mechanical Engineering Lab III (DD,SdC)",
+25,btech-ME-4-A,Wed,[T] Economics (PS),[T] Advance Manufacturing Technology (DD),[T] Advanced Weilding technolog (TnS),[T] Mechanical Vibration (DS),--- LUNCH ---,[T] Non-Conventional Energy (SkD),,,
+25,btech-ME-4-A,Thu,[T] Non-Conventional Energy (SkD),[T] Mechanical Vibration (DS),[T] Automobile Engineering (NM),[T] CAD-CAM (HbM),--- LUNCH ---,[T] Advanced Weilding technolog (TnS),,,
+25,btech-ME-4-A,Fri,[T] Automobile Engineering (NM),[T] Economics (PS),[T] Non-Conventional Energy (SkD),[T] Industrial Engineering (AnP),--- LUNCH ---,[T] Advance Manufacturing Technology (DD),,,
 
-26,btech-FET-4-A,Mon,[T] Food Packaging Technology (SC),[T] Nanoscience in Food Science (KKD),,[T] Modelling and Sim. of Food Process (SC),--- LUNCH ---,[L:140] Product Development & Quality Assurance Lab (KKD),[L:140] Product Development & Quality Assurance Lab (KKD),[L:140] Product Development & Quality Assurance Lab (KKD),
+26,btech-FET-4-A,Mon,[T] Project Engg & Food Plant Layout (ABD),[T] Modelling and Sim. of Food Process (SC),[T] Food Packaging Technology (SC),[T] Food Saftey & Quality Management (VK),--- LUNCH ---,,,,
 26,btech-FET-4-A,Tue,[T] Modelling and Sim. of Food Process (SC),[T] Food Saftey & Quality Management (VK),[T] Entrepreuneurship for Food Tech (AnS),[T] Nanoscience in Food Science (KKD),--- LUNCH ---,,,,
-26,btech-FET-4-A,Wed,[T] Entrepreuneurship for Food Tech (AnS),,[T] Project Engg & Food Plant Layout (ABD),[T] Food Saftey & Quality Management (VK),--- LUNCH ---,,,,
-26,btech-FET-4-A,Thu,[T] Food Saftey & Quality Management (VK),[T] Project Engg & Food Plant Layout (ABD),[T] Food Packaging Technology (SC),[T] Entrepreuneurship for Food Tech (AnS),--- LUNCH ---,,,,
-26,btech-FET-4-A,Fri,[T] Nanoscience in Food Science (KKD),[T] Food Packaging Technology (SC),[T] Modelling and Sim. of Food Process (SC),[T] Project Engg & Food Plant Layout (ABD),--- LUNCH ---,,,,
+26,btech-FET-4-A,Wed,[T] Food Packaging Technology (SC),[T] Project Engg & Food Plant Layout (ABD),[T] Food Saftey & Quality Management (VK),,--- LUNCH ---,,,,
+26,btech-FET-4-A,Thu,[T] Entrepreuneurship for Food Tech (AnS),[T] Food Packaging Technology (SC),[T] Nanoscience in Food Science (KKD),[T] Project Engg & Food Plant Layout (ABD),--- LUNCH ---,,,,
+26,btech-FET-4-A,Fri,[T] Nanoscience in Food Science (KKD),,[T] Modelling and Sim. of Food Process (SC),[T] Entrepreuneurship for Food Tech (AnS),--- LUNCH ---,[L:140] Product Development & Quality Assurance Lab (KKD),[L:140] Product Development & Quality Assurance Lab (KKD),[L:140] Product Development & Quality Assurance Lab (KKD),
 
-27,btech-EE-4-A,Mon,,,[T] Digital Image Processing (AR),[T] Electric Drive (CS),--- LUNCH ---,,,,
-27,btech-EE-4-A,Tue,[T] Electric Drive (CS),[T] Digital Image Processing (AR),[T] Artificial Intelligence (SuB),[T] Principles of Management (PS),--- LUNCH ---,,,,
-27,btech-EE-4-A,Wed,[T] Digital Image Processing (AR),,,[T] Power Generation Economics (SnC),--- LUNCH ---,,,,
-27,btech-EE-4-A,Thu,[T] Power Generation Economics (SnC),[T] Electric Drive (CS),[T] Principles of Management (PS),[T] Artificial Intelligence (SuB),--- LUNCH ---,"[L:107] Electrical Drive Lab (CS,AK)","[L:107] Electrical Drive Lab (CS,AK)",,
-27,btech-EE-4-A,Fri,[T] Principles of Management (PS),[T] Artificial Intelligence (SuB),[T] Power Generation Economics (SnC),,--- LUNCH ---,,,,
+27,btech-EE-4-A,Mon,[T] Principles of Management (PS),[T] Artificial Intelligence (SuB),[T] Electric Drive (CS),[T] Digital Image Processing (AR),--- LUNCH ---,,,,
+27,btech-EE-4-A,Tue,[T] Electric Drive (CS),[T] Principles of Management (PS),,[T] Power Generation Economics (SnC),--- LUNCH ---,,,,
+27,btech-EE-4-A,Wed,,[T] Digital Image Processing (AR),[T] Artificial Intelligence (SuB),[T] Principles of Management (PS),--- LUNCH ---,,,,
+27,btech-EE-4-A,Thu,,[T] Power Generation Economics (SnC),[T] Digital Image Processing (AR),,--- LUNCH ---,"[L:107] Electrical Drive Lab (CS,AK)","[L:107] Electrical Drive Lab (CS,AK)",,
+27,btech-EE-4-A,Fri,[T] Artificial Intelligence (SuB),,[T] Power Generation Economics (SnC),[T] Electric Drive (CS),--- LUNCH ---,,,,
 
-28,btech-EE-4-B,Mon,,,[T] Digital Image Processing (AR),[T] Electric Drive (CS),--- LUNCH ---,,,"[L:107] Electrical Drive Lab (CS,AK)","[L:107] Electrical Drive Lab (CS,AK)"
-28,btech-EE-4-B,Tue,[T] Electric Drive (CS),[T] Digital Image Processing (AR),[T] Artificial Intelligence (SuB),[T] Principles of Management (PS),--- LUNCH ---,,,,
-28,btech-EE-4-B,Wed,[T] Digital Image Processing (AR),,,[T] Power Generation Economics (SnC),--- LUNCH ---,,,,
-28,btech-EE-4-B,Thu,[T] Power Generation Economics (SnC),[T] Electric Drive (CS),[T] Principles of Management (PS),[T] Artificial Intelligence (SuB),--- LUNCH ---,,,,
-28,btech-EE-4-B,Fri,[T] Principles of Management (PS),[T] Artificial Intelligence (SuB),[T] Power Generation Economics (SnC),,--- LUNCH ---,,,,
+28,btech-EE-4-B,Mon,[T] Principles of Management (PS),[T] Artificial Intelligence (SuB),[T] Electric Drive (CS),[T] Digital Image Processing (AR),--- LUNCH ---,,,,
+28,btech-EE-4-B,Tue,[T] Electric Drive (CS),[T] Principles of Management (PS),,[T] Power Generation Economics (SnC),--- LUNCH ---,,,,
+28,btech-EE-4-B,Wed,,[T] Digital Image Processing (AR),[T] Artificial Intelligence (SuB),[T] Principles of Management (PS),--- LUNCH ---,,,"[L:107] Electrical Drive Lab (CS,AK)","[L:107] Electrical Drive Lab (CS,AK)"
+28,btech-EE-4-B,Thu,,[T] Power Generation Economics (SnC),[T] Digital Image Processing (AR),,--- LUNCH ---,,,,
+28,btech-EE-4-B,Fri,[T] Artificial Intelligence (SuB),,[T] Power Generation Economics (SnC),[T] Electric Drive (CS),--- LUNCH ---,,,,
 
-29,diploma-EE+ME+FPT-1-A,Mon,--- OFF ---,,"[L:103] Engineering Ghraphics (SkD,PbM)","[L:103] Engineering Ghraphics (SkD,PbM)","[L:103] Engineering Ghraphics (SkD,PbM)",--- LUNCH ---,,,
-29,diploma-EE+ME+FPT-1-A,Tue,--- OFF ---,,[T] Applied Physics (RD),,,--- LUNCH ---,[L:105] Communication Skill in English Lab (SSC),[L:105] Communication Skill in English Lab (SSC),
-29,diploma-EE+ME+FPT-1-A,Wed,--- OFF ---,[T] Applied Physics (RD),,[T] Applied Chemistry (AM),[T] Mathematics-I (BKT),--- LUNCH ---,[L:101] Applied Chemistry Lab (AM),[L:101] Applied Chemistry Lab (AM),
-29,diploma-EE+ME+FPT-1-A,Thu,--- OFF ---,,[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),--- LUNCH ---,[L:102] Applied Physics Lab (Guest),[L:102] Applied Physics Lab (Guest),
-29,diploma-EE+ME+FPT-1-A,Fri,--- OFF ---,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Applied Physics (RD),[T] Communication Skill in English (SSC),--- LUNCH ---,"[L:104] Engineering Workshop Practics (NM,PrS)","[L:104] Engineering Workshop Practics (NM,PrS)","[L:104] Engineering Workshop Practics (NM,PrS)"
+29,diploma-EE+ME+FPT-1-A,Mon,--- OFF ---,,,,[T] Applied Physics (RD),--- LUNCH ---,[L:105] Communication Skill in English Lab (SSC),[L:105] Communication Skill in English Lab (SSC),
+29,diploma-EE+ME+FPT-1-A,Tue,--- OFF ---,,,[T] Applied Physics (RD),[T] Applied Chemistry (AM),--- LUNCH ---,,,
+29,diploma-EE+ME+FPT-1-A,Wed,--- OFF ---,[T] Mathematics-I (BKT),"[L:103] Engineering Ghraphics (SkD,PbM)","[L:103] Engineering Ghraphics (SkD,PbM)","[L:103] Engineering Ghraphics (SkD,PbM)",--- LUNCH ---,[L:101] Applied Chemistry Lab (AM),[L:101] Applied Chemistry Lab (AM),
+29,diploma-EE+ME+FPT-1-A,Thu,--- OFF ---,[T] Applied Physics (RD),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),--- LUNCH ---,"[L:104] Engineering Workshop Practics (NM,PrS)","[L:104] Engineering Workshop Practics (NM,PrS)","[L:104] Engineering Workshop Practics (NM,PrS)"
+29,diploma-EE+ME+FPT-1-A,Fri,--- OFF ---,,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),--- LUNCH ---,[L:102] Applied Physics Lab (Guest),[L:102] Applied Physics Lab (Guest),
 
-30,diploma-EE+ME+FPT-1-B,Mon,--- OFF ---,,,,,--- LUNCH ---,[L:105] Communication Skill in English Lab (SSC),[L:105] Communication Skill in English Lab (SSC),
-30,diploma-EE+ME+FPT-1-B,Tue,--- OFF ---,,[T] Applied Physics (RD),,,--- LUNCH ---,"[L:104] Engineering Workshop Practics (RR,SdC)","[L:104] Engineering Workshop Practics (RR,SdC)","[L:104] Engineering Workshop Practics (RR,SdC)"
-30,diploma-EE+ME+FPT-1-B,Wed,--- OFF ---,[T] Applied Physics (RD),,[T] Applied Chemistry (AM),[T] Mathematics-I (BKT),--- LUNCH ---,[L:102] Applied Physics Lab (Guest),[L:102] Applied Physics Lab (Guest),
-30,diploma-EE+ME+FPT-1-B,Thu,--- OFF ---,,[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),--- LUNCH ---,"[L:103] Engineering Ghraphics (RR,PbM)","[L:103] Engineering Ghraphics (RR,PbM)","[L:103] Engineering Ghraphics (RR,PbM)"
-30,diploma-EE+ME+FPT-1-B,Fri,--- OFF ---,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Applied Physics (RD),[T] Communication Skill in English (SSC),--- LUNCH ---,[L:101] Applied Chemistry Lab (AM),[L:101] Applied Chemistry Lab (AM),
+30,diploma-EE+ME+FPT-1-B,Mon,--- OFF ---,,,,[T] Applied Physics (RD),--- LUNCH ---,[L:102] Applied Physics Lab (Guest),[L:102] Applied Physics Lab (Guest),
+30,diploma-EE+ME+FPT-1-B,Tue,--- OFF ---,,,[T] Applied Physics (RD),[T] Applied Chemistry (AM),--- LUNCH ---,"[L:103] Engineering Ghraphics (RR,PbM)","[L:103] Engineering Ghraphics (RR,PbM)","[L:103] Engineering Ghraphics (RR,PbM)"
+30,diploma-EE+ME+FPT-1-B,Wed,--- OFF ---,[T] Mathematics-I (BKT),,,,--- LUNCH ---,"[L:104] Engineering Workshop Practics (RR,SdC)","[L:104] Engineering Workshop Practics (RR,SdC)","[L:104] Engineering Workshop Practics (RR,SdC)"
+30,diploma-EE+ME+FPT-1-B,Thu,--- OFF ---,[T] Applied Physics (RD),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),--- LUNCH ---,[L:105] Communication Skill in English Lab (SSC),[L:105] Communication Skill in English Lab (SSC),
+30,diploma-EE+ME+FPT-1-B,Fri,--- OFF ---,,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),--- LUNCH ---,[L:101] Applied Chemistry Lab (AM),[L:101] Applied Chemistry Lab (AM),
 
-31,diploma-CST+CE-1-A,Mon,--- OFF ---,,,,,--- LUNCH ---,"[L:104] Engineering Workshop Practics (RR,PbM)","[L:104] Engineering Workshop Practics (RR,PbM)","[L:104] Engineering Workshop Practics (RR,PbM)"
-31,diploma-CST+CE-1-A,Tue,--- OFF ---,,[T] Applied Physics (RD),,,--- LUNCH ---,[L:101] Applied Chemistry Lab (SN),[L:101] Applied Chemistry Lab (SN),
-31,diploma-CST+CE-1-A,Wed,--- OFF ---,[T] Applied Physics (RD),,[T] Applied Chemistry (AM),[T] Mathematics-I (BKT),--- LUNCH ---,"[L:103] Engineering Ghraphics (HbR,PrS)","[L:103] Engineering Ghraphics (HbR,PrS)","[L:103] Engineering Ghraphics (HbR,PrS)"
-31,diploma-CST+CE-1-A,Thu,--- OFF ---,,[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),--- LUNCH ---,[L:105] Communication Skill in English Lab (CD),[L:105] Communication Skill in English Lab (CD),
-31,diploma-CST+CE-1-A,Fri,--- OFF ---,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Applied Physics (RD),[T] Communication Skill in English (SSC),--- LUNCH ---,[L:102] Applied Physics Lab (RD),[L:102] Applied Physics Lab (RD),
+31,diploma-CST+CE-1-A,Mon,--- OFF ---,"[L:104] Engineering Workshop Practics (RR,PbM)","[L:104] Engineering Workshop Practics (RR,PbM)","[L:104] Engineering Workshop Practics (RR,PbM)",[T] Applied Physics (RD),--- LUNCH ---,"[L:103] Engineering Ghraphics (HbR,PrS)","[L:103] Engineering Ghraphics (HbR,PrS)","[L:103] Engineering Ghraphics (HbR,PrS)"
+31,diploma-CST+CE-1-A,Tue,--- OFF ---,,,[T] Applied Physics (RD),[T] Applied Chemistry (AM),--- LUNCH ---,[L:102] Applied Physics Lab (RD),[L:102] Applied Physics Lab (RD),
+31,diploma-CST+CE-1-A,Wed,--- OFF ---,[T] Mathematics-I (BKT),,,,--- LUNCH ---,[L:105] Communication Skill in English Lab (CD),[L:105] Communication Skill in English Lab (CD),
+31,diploma-CST+CE-1-A,Thu,--- OFF ---,[T] Applied Physics (RD),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),--- LUNCH ---,[L:101] Applied Chemistry Lab (SN),[L:101] Applied Chemistry Lab (SN),
+31,diploma-CST+CE-1-A,Fri,--- OFF ---,,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),--- LUNCH ---,,,
 
-32,diploma-CST+CE-1-B,Mon,--- OFF ---,,,,,--- LUNCH ---,[L:102] Applied Physics Lab (RD),[L:102] Applied Physics Lab (RD),
-32,diploma-CST+CE-1-B,Tue,--- OFF ---,,[T] Applied Physics (RD),,,--- LUNCH ---,"[L:103] Engineering Ghraphics (TrD,SbK)","[L:103] Engineering Ghraphics (TrD,SbK)","[L:103] Engineering Ghraphics (TrD,SbK)"
-32,diploma-CST+CE-1-B,Wed,--- OFF ---,[T] Applied Physics (RD),,[T] Applied Chemistry (AM),[T] Mathematics-I (BKT),--- LUNCH ---,"[L:104] Engineering Workshop Practics (RR,SbK)","[L:104] Engineering Workshop Practics (RR,SbK)","[L:104] Engineering Workshop Practics (RR,SbK)"
-32,diploma-CST+CE-1-B,Thu,--- OFF ---,,[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),--- LUNCH ---,[L:101] Applied Chemistry Lab (SN),[L:101] Applied Chemistry Lab (SN),
-32,diploma-CST+CE-1-B,Fri,--- OFF ---,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Applied Physics (RD),[T] Communication Skill in English (SSC),--- LUNCH ---,[L:105] Communication Skill in English Lab (CD),[L:105] Communication Skill in English Lab (CD),
+32,diploma-CST+CE-1-B,Mon,--- OFF ---,,,,[T] Applied Physics (RD),--- LUNCH ---,[L:101] Applied Chemistry Lab (SN),[L:101] Applied Chemistry Lab (SN),
+32,diploma-CST+CE-1-B,Tue,--- OFF ---,,,[T] Applied Physics (RD),[T] Applied Chemistry (AM),--- LUNCH ---,[L:105] Communication Skill in English Lab (CD),[L:105] Communication Skill in English Lab (CD),
+32,diploma-CST+CE-1-B,Wed,--- OFF ---,[T] Mathematics-I (BKT),"[L:104] Engineering Workshop Practics (RR,SbK)","[L:104] Engineering Workshop Practics (RR,SbK)","[L:104] Engineering Workshop Practics (RR,SbK)",--- LUNCH ---,"[L:103] Engineering Ghraphics (TrD,SbK)","[L:103] Engineering Ghraphics (TrD,SbK)","[L:103] Engineering Ghraphics (TrD,SbK)"
+32,diploma-CST+CE-1-B,Thu,--- OFF ---,[T] Applied Physics (RD),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),[T] Mathematics-I (BKT),--- LUNCH ---,[L:102] Applied Physics Lab (RD),[L:102] Applied Physics Lab (RD),
+32,diploma-CST+CE-1-B,Fri,--- OFF ---,,[T] Mathematics-I (BKT),[T] Applied Chemistry (AM),[T] Communication Skill in English (SSC),--- LUNCH ---,,,
 
-33,diploma-ME-2-A,Mon,--- OFF ---,[T] Mech. Eng. Materials (RR),[T] Thermal Engineering (NM),[T] Strength of Material (TrD),[T] Mech Eng Drawing (HbM),--- LUNCH ---,"[L:132] Material Testing Lab (HbM,SdC)","[L:132] Material Testing Lab (HbM,SdC)",
-33,diploma-ME-2-A,Tue,--- OFF ---,[T] Mech Eng Drawing (HbM),[T] Mech. Eng. Materials (RR),[T] Manufactoring Process 1 (AbK),[T] Thermal Engineering (NM),--- LUNCH ---,,,
-33,diploma-ME-2-A,Wed,--- OFF ---,[T] Strength of Material (TrD),"[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)","[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)",[T] Mech. Eng. Materials (RR),--- LUNCH ---,,,
-33,diploma-ME-2-A,Thu,--- OFF ---,"[L:133] Mech. Eng. Drawing Practice (HbM,PbM)","[L:133] Mech. Eng. Drawing Practice (HbM,PbM)",[T] Thermal Engineering (NM),[T] Manufactoring Process 1 (AbK),--- LUNCH ---,"[L:131] Thermal Engineering Lab (TrD,SbK)","[L:131] Thermal Engineering Lab (TrD,SbK)",
-33,diploma-ME-2-A,Fri,--- OFF ---,[T] Manufactoring Process 1 (AbK),[T] Strength of Material (TrD),"[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)","[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)",--- LUNCH ---,"[L:133] Mech. Eng. Drawing Practice (HbM,PbM)","[L:133] Mech. Eng. Drawing Practice (HbM,PbM)",
+33,diploma-ME-2-A,Mon,--- OFF ---,,[T] Mech Eng Drawing (HbM),[T] Thermal Engineering (NM),[T] Manufactoring Process 1 (AbK),--- LUNCH ---,,,
+33,diploma-ME-2-A,Tue,--- OFF ---,[T] Thermal Engineering (NM),[T] Manufactoring Process 1 (AbK),[T] Strength of Material (TrD),[T] Mech. Eng. Materials (RR),--- LUNCH ---,"[L:131] Thermal Engineering Lab (TrD,SbK)","[L:131] Thermal Engineering Lab (TrD,SbK)",
+33,diploma-ME-2-A,Wed,--- OFF ---,,[T] Strength of Material (TrD),[T] Manufactoring Process 1 (AbK),[T] Mech Eng Drawing (HbM),--- LUNCH ---,"[L:133] Mech. Eng. Drawing Practice (HbM,PbM)","[L:133] Mech. Eng. Drawing Practice (HbM,PbM)",
+33,diploma-ME-2-A,Thu,--- OFF ---,[T] Strength of Material (TrD),[T] Mech. Eng. Materials (RR),"[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)","[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)",--- LUNCH ---,"[L:133] Mech. Eng. Drawing Practice (HbM,PbM)","[L:133] Mech. Eng. Drawing Practice (HbM,PbM)",
+33,diploma-ME-2-A,Fri,--- OFF ---,[T] Mech. Eng. Materials (RR),[T] Thermal Engineering (NM),"[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)","[L:130] Manufactoring Process 1 Practice Lab (AbK,PbM)",--- LUNCH ---,"[L:132] Material Testing Lab (HbM,SdC)","[L:132] Material Testing Lab (HbM,SdC)",
 
-34,diploma-CE-2-A,Mon,--- OFF ---,[T] Concrete Technology (HS),[T] Mechanics of Material (SB),[T] Buliding Construction (SB),[T] Transotation Engg. (PY),--- LUNCH ---,[L:127] Mechanics of Material Lab (PY),[L:127] Mechanics of Material Lab (PY),
-34,diploma-CE-2-A,Tue,--- OFF ---,[L:126] Concrete Technology Lab (HS),[L:126] Concrete Technology Lab (HS),[T] Concrete Technology (HS),[T] Mechanics of Material (SB),--- LUNCH ---,[L:128] CE Planning and Drawing Lab (PY),[L:128] CE Planning and Drawing Lab (PY),
-34,diploma-CE-2-A,Wed,--- OFF ---,[T] Transotation Engg. (PY),[T] Buliding Construction (SB),[T] CE Planning and Drawing (HS),[T] Basic Surveying (HR),--- LUNCH ---,[L:125] Transportation Engg. Lab (PY),[L:125] Transportation Engg. Lab (PY),
-34,diploma-CE-2-A,Thu,--- OFF ---,[T] Basic Surveying (HR),[T] Construction of Materials (KY),,,--- LUNCH ---,[L:128] CE Planning and Drawing Lab (PY),[L:128] CE Planning and Drawing Lab (PY),
-34,diploma-CE-2-A,Fri,--- OFF ---,[T] Mechanics of Material (SB),,[T] Basic Surveying (HR),[T] Construction of Materials (KY),--- LUNCH ---,[L:126] Construction of Materials lLab (SB),[L:126] Construction of Materials lLab (SB),
+34,diploma-CE-2-A,Mon,--- OFF ---,[T] Buliding Construction (SB),[T] Mechanics of Material (SB),[T] Transotation Engg. (PY),[T] Concrete Technology (HS),--- LUNCH ---,[L:126] Construction of Materials lLab (SB),[L:126] Construction of Materials lLab (SB),
+34,diploma-CE-2-A,Tue,--- OFF ---,[T] Mechanics of Material (SB),[T] Concrete Technology (HS),[T] Construction of Materials (KY),[T] Transotation Engg. (PY),--- LUNCH ---,[L:128] CE Planning and Drawing Lab (PY),[L:128] CE Planning and Drawing Lab (PY),
+34,diploma-CE-2-A,Wed,--- OFF ---,,[T] Basic Surveying (HR),[T] Buliding Construction (SB),,--- LUNCH ---,[L:127] Mechanics of Material Lab (PY),[L:127] Mechanics of Material Lab (PY),
+34,diploma-CE-2-A,Thu,--- OFF ---,,[T] CE Planning and Drawing (HS),[T] Basic Surveying (HR),[T] Construction of Materials (KY),--- LUNCH ---,[L:125] Transportation Engg. Lab (PY),[L:125] Transportation Engg. Lab (PY),
+34,diploma-CE-2-A,Fri,--- OFF ---,[L:128] CE Planning and Drawing Lab (PY),[L:128] CE Planning and Drawing Lab (PY),[T] Mechanics of Material (SB),[T] Basic Surveying (HR),--- LUNCH ---,[L:126] Concrete Technology Lab (HS),[L:126] Concrete Technology Lab (HS),
 
-35,diploma-FET-2-A,Mon,--- OFF ---,[L:137] Chemistry of Food Lab (MiM),[L:137] Chemistry of Food Lab (MiM),[T] Food Microbiology (JA),[T] Chemistry of Food (SKD),--- LUNCH ---,[L:136] Food Preservation Lab (MS),[L:136] Food Preservation Lab (MS),
-35,diploma-FET-2-A,Tue,--- OFF ---,,[T] Unit Operation of Chemical Engineering - I (VK),[T] Engg. Thermodynamics & Chem Kinetics (SC),[T] Food Microbiology (JA),--- LUNCH ---,[L:138] Food Microbiology lab (PR),[L:138] Food Microbiology lab (PR),[L:138] Food Microbiology lab (PR)
-35,diploma-FET-2-A,Wed,--- OFF ---,[T] Unit Operation of Chemical Engineering - I (VK),,[T] Chemistry of Food (SKD),[T] Engg. Thermodynamics & Chem Kinetics (SC),--- LUNCH ---,[L:136] Food Preservation Lab (MS),[L:136] Food Preservation Lab (MS),
-35,diploma-FET-2-A,Thu,--- OFF ---,,,[T] Fundamental Chemistry (SKD),[T] Technology in Food Preservation (JA),--- LUNCH ---,[L:139] Unit Operation of Chemical Engineering - I Lab (MS),[L:139] Unit Operation of Chemical Engineering - I Lab (MS),
-35,diploma-FET-2-A,Fri,--- OFF ---,[T] Technology in Food Preservation (JA),[T] Fundamental Chemistry (SKD),[T] Unit Operation of Chemical Engineering - I (VK),,--- LUNCH ---,[L:137] Chemistry of Food Lab (MiM),[L:137] Chemistry of Food Lab (MiM),
+35,diploma-FET-2-A,Mon,--- OFF ---,[T] Food Microbiology (JA),[T] Technology in Food Preservation (JA),,[T] Engg. Thermodynamics & Chem Kinetics (SC),--- LUNCH ---,[L:138] Food Microbiology lab (PR),[L:138] Food Microbiology lab (PR),[L:138] Food Microbiology lab (PR)
+35,diploma-FET-2-A,Tue,--- OFF ---,[L:137] Chemistry of Food Lab (MiM),[L:137] Chemistry of Food Lab (MiM),[T] Fundamental Chemistry (SKD),,--- LUNCH ---,[L:139] Unit Operation of Chemical Engineering - I Lab (MS),[L:139] Unit Operation of Chemical Engineering - I Lab (MS),
+35,diploma-FET-2-A,Wed,--- OFF ---,[T] Engg. Thermodynamics & Chem Kinetics (SC),[T] Fundamental Chemistry (SKD),[T] Unit Operation of Chemical Engineering - I (VK),[T] Chemistry of Food (SKD),--- LUNCH ---,[L:136] Food Preservation Lab (MS),[L:136] Food Preservation Lab (MS),
+35,diploma-FET-2-A,Thu,--- OFF ---,,[T] Unit Operation of Chemical Engineering - I (VK),[T] Food Microbiology (JA),[T] Technology in Food Preservation (JA),--- LUNCH ---,[L:136] Food Preservation Lab (MS),[L:136] Food Preservation Lab (MS),
+35,diploma-FET-2-A,Fri,--- OFF ---,,,[T] Chemistry of Food (SKD),[T] Unit Operation of Chemical Engineering - I (VK),--- LUNCH ---,[L:137] Chemistry of Food Lab (MiM),[L:137] Chemistry of Food Lab (MiM),
 
-36,diploma-EE-2-A,Mon,--- OFF ---,,[T] Electrical Circuits (RK),,[T] DC Machines and Transformers (RRK),--- LUNCH ---,,,
-36,diploma-EE-2-A,Tue,--- OFF ---,,,[T] Electrical Circuits (RK),[T] Electrical and Electronics Measurment (SA),--- LUNCH ---,"[L:107] Electircal and Electronics Measurment Labs (SA,DM)","[L:107] Electircal and Electronics Measurment Labs (SA,DM)",
-36,diploma-EE-2-A,Wed,--- OFF ---,[T] DC Machines and Transformers (RRK),[T] Analog and Digital Electronics (TkD),[T] Electrical and Electronics Measurment (SA),[T] Introduction to Electric Generation System (AmK),--- LUNCH ---,,"[L:108] Introduction to Electric Generation System Labs (AmK,AB)","[L:108] Introduction to Electric Generation System Labs (AmK,AB)"
-36,diploma-EE-2-A,Thu,--- OFF ---,[T] Analog and Digital Electronics (TkD),[T] Introduction to Electric Generation System (AmK),,[T] Electrical Circuits (RK),--- LUNCH ---,"[L:109] DC Machines and Transformers Labs (RRK,DM)","[L:109] DC Machines and Transformers Labs (RRK,DM)",
-36,diploma-EE-2-A,Fri,--- OFF ---,[T] Introduction to Electric Generation System (AmK),[T] Electrical and Electronics Measurment (SA),[T] DC Machines and Transformers (RRK),[T] Analog and Digital Electronics (TkD),--- LUNCH ---,"[L:106] Analog and Digital Electronics Labs (GG,SM)","[L:106] Analog and Digital Electronics Labs (GG,SM)",
+36,diploma-EE-2-A,Mon,--- OFF ---,,,[T] Electrical Circuits (RK),[T] Electrical and Electronics Measurment (SA),--- LUNCH ---,"[L:107] Electircal and Electronics Measurment Labs (SA,DM)","[L:107] Electircal and Electronics Measurment Labs (SA,DM)",
+36,diploma-EE-2-A,Tue,--- OFF ---,[T] Electrical and Electronics Measurment (SA),,[T] DC Machines and Transformers (RRK),[T] Analog and Digital Electronics (TkD),--- LUNCH ---,,"[L:108] Introduction to Electric Generation System Labs (AmK,AB)","[L:108] Introduction to Electric Generation System Labs (AmK,AB)"
+36,diploma-EE-2-A,Wed,--- OFF ---,[T] DC Machines and Transformers (RRK),[T] Introduction to Electric Generation System (AmK),[T] Electrical and Electronics Measurment (SA),[T] Electrical Circuits (RK),--- LUNCH ---,"[L:106] Analog and Digital Electronics Labs (GG,SM)","[L:106] Analog and Digital Electronics Labs (GG,SM)",
+36,diploma-EE-2-A,Thu,--- OFF ---,[T] Electrical Circuits (RK),[T] Analog and Digital Electronics (TkD),[T] Introduction to Electric Generation System (AmK),[T] DC Machines and Transformers (RRK),--- LUNCH ---,"[L:109] DC Machines and Transformers Labs (RRK,DM)","[L:109] DC Machines and Transformers Labs (RRK,DM)",
+36,diploma-EE-2-A,Fri,--- OFF ---,,,[T] Analog and Digital Electronics (TkD),[T] Introduction to Electric Generation System (AmK),--- LUNCH ---,,,
 
-37,diploma-CST-2-A,Mon,--- OFF ---,,[T] Computer Programming (SUD),[T] Computer System Organization (SDM),[T] Data Structure (TKO),--- LUNCH ---,,"[L:115] Scripting Languages Lab (SUD,SNM)","[L:115] Scripting Languages Lab (SUD,SNM)"
-37,diploma-CST-2-A,Tue,--- OFF ---,[T] Computer System Organization (SDM),[T] Algorithms (DR),,[T] Scripting Languages (IW),--- LUNCH ---,,"[L:121] Computer Programming Lab (SuB,PPS)","[L:121] Computer Programming Lab (SuB,PPS)"
-37,diploma-CST-2-A,Wed,--- OFF ---,[T] Data Structure (TKO),[T] Scripting Languages (IW),,[T] Algorithms (DR),--- LUNCH ---,,"[L:115] Scripting Languages Lab (SUD,SNM)","[L:115] Scripting Languages Lab (SUD,SNM)"
-37,diploma-CST-2-A,Thu,--- OFF ---,,[T] Computer System Organization (SDM),,,--- LUNCH ---,,"[L:115] Data Structure Lab (TKO,PPS)","[L:115] Data Structure Lab (TKO,PPS)"
-37,diploma-CST-2-A,Fri,--- OFF ---,[T] Algorithms (DR),[T] Data Structure (TKO),[T] Computer Programming (SUD),[T] Computer System Organization (SDM),--- LUNCH ---,,"[L:121] Computer Programming Lab (SuB,PPS)","[L:121] Computer Programming Lab (SuB,PPS)"
+37,diploma-CST-2-A,Mon,--- OFF ---,[T] Data Structure (TKO),[T] Computer System Organization (SDM),,[T] Algorithms (DR),--- LUNCH ---,,"[L:121] Computer Programming Lab (SuB,PPS)","[L:121] Computer Programming Lab (SuB,PPS)"
+37,diploma-CST-2-A,Tue,--- OFF ---,[T] Computer System Organization (SDM),[T] Algorithms (DR),[T] Scripting Languages (IW),[T] Computer Programming (SUD),--- LUNCH ---,,"[L:115] Scripting Languages Lab (SUD,SNM)","[L:115] Scripting Languages Lab (SUD,SNM)"
+37,diploma-CST-2-A,Wed,--- OFF ---,,[T] Data Structure (TKO),,,--- LUNCH ---,,"[L:115] Data Structure Lab (TKO,PPS)","[L:115] Data Structure Lab (TKO,PPS)"
+37,diploma-CST-2-A,Thu,--- OFF ---,,,[T] Algorithms (DR),[T] Computer System Organization (SDM),--- LUNCH ---,,"[L:115] Scripting Languages Lab (SUD,SNM)","[L:115] Scripting Languages Lab (SUD,SNM)"
+37,diploma-CST-2-A,Fri,--- OFF ---,[T] Scripting Languages (IW),[T] Computer Programming (SUD),[T] Computer System Organization (SDM),[T] Data Structure (TKO),--- LUNCH ---,,"[L:121] Computer Programming Lab (SuB,PPS)","[L:121] Computer Programming Lab (SuB,PPS)"
 
-38,diploma-ME-3-A,Mon,--- OFF ---,[T] Elective-Automobile Engineering (TrD),,[T] Power Engineering (SlM),[T] Advance Manufactoring Process (AbK),--- LUNCH ---,,,
-38,diploma-ME-3-A,Tue,--- OFF ---,[T] Advance Manufactoring Process (AbK),,[T] Fluid Mechanis and Machinery (SlM),[T] Elective-Material Handling System (AnP),--- LUNCH ---,,,
-38,diploma-ME-3-A,Wed,--- OFF ---,[T] Power Engineering (SlM),,,,--- LUNCH ---,,,
-38,diploma-ME-3-A,Thu,--- OFF ---,[T] Fluid Mechanis and Machinery (SlM),[T] Elective-Material Handling System (AnP),[T] Advance Manufactoring Process (AbK),[T] Power Engineering (SlM),--- LUNCH ---,,,
-38,diploma-ME-3-A,Fri,--- OFF ---,"[L:130] Advance Manufactoring Process Lab (TnS,SdC)","[L:130] Advance Manufactoring Process Lab (TnS,SdC)",[T] Elective-Automobile Engineering (TrD),[T] Fluid Mechanis and Machinery (SlM),--- LUNCH ---,"[L:134] Power Engineering Lab (SlM,SbK)","[L:134] Power Engineering Lab (SlM,SbK)",
+38,diploma-ME-3-A,Mon,--- OFF ---,[T] Power Engineering (SlM),,[T] Advance Manufactoring Process (AbK),,--- LUNCH ---,"[L:134] Power Engineering Lab (SlM,SbK)","[L:134] Power Engineering Lab (SlM,SbK)",
+38,diploma-ME-3-A,Tue,--- OFF ---,[T] Fluid Mechanis and Machinery (SlM),[T] Elective-Automobile Engineering (TrD),,[T] Power Engineering (SlM),--- LUNCH ---,,,
+38,diploma-ME-3-A,Wed,--- OFF ---,[T] Elective-Automobile Engineering (TrD),[T] Advance Manufactoring Process (AbK),"[L:130] Advance Manufactoring Process Lab (TnS,SdC)","[L:130] Advance Manufactoring Process Lab (TnS,SdC)",--- LUNCH ---,,,
+38,diploma-ME-3-A,Thu,--- OFF ---,[T] Elective-Material Handling System (AnP),,,[T] Fluid Mechanis and Machinery (SlM),--- LUNCH ---,,,
+38,diploma-ME-3-A,Fri,--- OFF ---,[T] Advance Manufactoring Process (AbK),[T] Power Engineering (SlM),[T] Fluid Mechanis and Machinery (SlM),[T] Elective-Material Handling System (AnP),--- LUNCH ---,,,
 
-39,diploma-CE-3-A,Mon,--- OFF ---,[T] Building Maintenance (PY),[T] Estimate costing and Valuation (KP),[T] Safety Engg and Management in Construction Sector (KY),[T] Traffic Engg Elective (HS),--- LUNCH ---,[L:128] Design of RCC and Steel Structure Practices (SB),[L:128] Design of RCC and Steel Structure Practices (SB),
-39,diploma-CE-3-A,Tue,--- OFF ---,,[T] Water Resource Engg. (KY),,[T] Building Maintenance (PY),--- LUNCH ---,,,
-39,diploma-CE-3-A,Wed,--- OFF ---,[T] Estimate costing and Valuation (KP),[T] Traffic Engg Elective (HS),[T] Building Maintenance (PY),[T] Water Resource Engg. (KY),--- LUNCH ---,[L:129] Estimate costing and Valuation Practices (KY),[L:129] Estimate costing and Valuation Practices (KY),
-39,diploma-CE-3-A,Thu,--- OFF ---,[T] Traffic Engg Elective (HS),,,,--- LUNCH ---,[L:129] Water Resource Engg. Lab (KY),[L:129] Water Resource Engg. Lab (KY),
-39,diploma-CE-3-A,Fri,--- OFF ---,[T] Safety Engg and Management in Construction Sector (KY),,,[T] Estimate costing and Valuation (KP),--- LUNCH ---,,,
+39,diploma-CE-3-A,Mon,--- OFF ---,,,[T] Safety Engg and Management in Construction Sector (KY),[T] Water Resource Engg. (KY),--- LUNCH ---,[L:129] Water Resource Engg. Lab (KY),[L:129] Water Resource Engg. Lab (KY),
+39,diploma-CE-3-A,Tue,--- OFF ---,[T] Water Resource Engg. (KY),[T] Building Maintenance (PY),,[T] Traffic Engg Elective (HS),--- LUNCH ---,,,
+39,diploma-CE-3-A,Wed,--- OFF ---,,[T] Traffic Engg Elective (HS),[T] Building Maintenance (PY),[T] Estimate costing and Valuation (KP),--- LUNCH ---,,,
+39,diploma-CE-3-A,Thu,--- OFF ---,[T] Estimate costing and Valuation (KP),,[T] Traffic Engg Elective (HS),[T] Building Maintenance (PY),--- LUNCH ---,[L:129] Estimate costing and Valuation Practices (KY),[L:129] Estimate costing and Valuation Practices (KY),
+39,diploma-CE-3-A,Fri,--- OFF ---,,,[T] Estimate costing and Valuation (KP),[T] Safety Engg and Management in Construction Sector (KY),--- LUNCH ---,[L:128] Design of RCC and Steel Structure Practices (SB),[L:128] Design of RCC and Steel Structure Practices (SB),
 
-40,diploma-FET-3-A,Mon,--- OFF ---,,[T] Food Safety and Quality Management (MAM),[T] Food Engineering (VK),[T] Food Biotechnology (JA),--- LUNCH ---,[L:137] Dairy Technology Lab (PR),[L:137] Dairy Technology Lab (PR),
-40,diploma-FET-3-A,Tue,--- OFF ---,,[T] Technology of Food IV (ABD),,[T] Food Engineering (VK),--- LUNCH ---,[L:140] Bakery and Confect Tech Lab (MiM),[L:140] Bakery and Confect Tech Lab (MiM),
-40,diploma-FET-3-A,Wed,--- OFF ---,[T] Dairy Technology (SC),,[T] Bakery Technology (JA),[T] Food Safety and Quality Management (MAM),--- LUNCH ---,[L:140] Bakery and Confect Tech Lab (MiM),[L:140] Bakery and Confect Tech Lab (MiM),
-40,diploma-FET-3-A,Thu,--- OFF ---,[T] Bakery Technology (JA),,,[T] Dairy Technology (SC),--- LUNCH ---,[L:137] Dairy Technology Lab (PR),[L:137] Dairy Technology Lab (PR),
-40,diploma-FET-3-A,Fri,--- OFF ---,[T] Technology of Food IV (ABD),[T] Food Biotechnology (JA),[T] Dairy Technology (SC),[T] Bakery Technology (JA),--- LUNCH ---,[L:141] Food Analylis & QC Lab (PR),[L:141] Food Analylis & QC Lab (PR),[L:141] Food Analylis & QC Lab (PR)
+40,diploma-FET-3-A,Mon,--- OFF ---,,,[T] Bakery Technology (JA),[T] Technology of Food IV (ABD),--- LUNCH ---,[L:140] Bakery and Confect Tech Lab (MiM),[L:140] Bakery and Confect Tech Lab (MiM),
+40,diploma-FET-3-A,Tue,--- OFF ---,,[T] Dairy Technology (SC),[T] Food Engineering (VK),[T] Food Biotechnology (JA),--- LUNCH ---,[L:140] Bakery and Confect Tech Lab (MiM),[L:140] Bakery and Confect Tech Lab (MiM),
+40,diploma-FET-3-A,Wed,--- OFF ---,,[T] Bakery Technology (JA),[T] Food Biotechnology (JA),,--- LUNCH ---,[L:137] Dairy Technology Lab (PR),[L:137] Dairy Technology Lab (PR),
+40,diploma-FET-3-A,Thu,--- OFF ---,[T] Bakery Technology (JA),[T] Technology of Food IV (ABD),[T] Dairy Technology (SC),[T] Food Safety and Quality Management (MAM),--- LUNCH ---,[L:137] Dairy Technology Lab (PR),[L:137] Dairy Technology Lab (PR),
+40,diploma-FET-3-A,Fri,--- OFF ---,[T] Food Engineering (VK),[T] Food Safety and Quality Management (MAM),,[T] Dairy Technology (SC),--- LUNCH ---,[L:141] Food Analylis & QC Lab (PR),[L:141] Food Analylis & QC Lab (PR),[L:141] Food Analylis & QC Lab (PR)
 
-41,diploma-EE-3-A,Mon,--- OFF ---,,,,[T] Solar Power Technologies (AmK),--- LUNCH ---,,,
-41,diploma-EE-3-A,Tue,--- OFF ---,[T] Solar Power Technologies (AmK),[T] Microcontroller and its Application (AR),[T] Building Electrification (PM),,--- LUNCH ---,,"[L:108] Solar Power Technologies Lab (AmK,AB)","[L:108] Solar Power Technologies Lab (AmK,AB)"
-41,diploma-EE-3-A,Wed,--- OFF ---,[T] Industrial Automation & Control  (SA),[T] Solar Power Technologies (AmK),[T] Microcontroller and its Application (AR),[T] Building Electrification (PM),--- LUNCH ---,"[L:111] Mircrocontroller and its Application Lab (AR,SM)","[L:111] Mircrocontroller and its Application Lab (AR,SM)",
-41,diploma-EE-3-A,Thu,--- OFF ---,,,,[T] Industrial Automation & Control  (SA),--- LUNCH ---,,"[L:112] Industrial Automation and Control Lab (SA,MA)","[L:112] Industrial Automation and Control Lab (SA,MA)"
-41,diploma-EE-3-A,Fri,--- OFF ---,,[T] Building Electrification (PM),[T] Industrial Automation & Control  (SA),[T] Microcontroller and its Application (AR),--- LUNCH ---,"[L:107] Building Electrification Lab (PM,DM)","[L:107] Building Electrification Lab (PM,DM)",
+41,diploma-EE-3-A,Mon,--- OFF ---,[T] Microcontroller and its Application (AR),,[T] Industrial Automation & Control  (SA),,--- LUNCH ---,"[L:111] Mircrocontroller and its Application Lab (AR,SM)","[L:111] Mircrocontroller and its Application Lab (AR,SM)",
+41,diploma-EE-3-A,Tue,--- OFF ---,[T] Building Electrification (PM),,[T] Microcontroller and its Application (AR),[T] Solar Power Technologies (AmK),--- LUNCH ---,"[L:107] Building Electrification Lab (PM,DM)","[L:107] Building Electrification Lab (PM,DM)",
+41,diploma-EE-3-A,Wed,--- OFF ---,[T] Solar Power Technologies (AmK),[T] Microcontroller and its Application (AR),,[T] Building Electrification (PM),--- LUNCH ---,,"[L:112] Industrial Automation and Control Lab (SA,MA)","[L:112] Industrial Automation and Control Lab (SA,MA)"
+41,diploma-EE-3-A,Thu,--- OFF ---,[T] Industrial Automation & Control  (SA),,[T] Building Electrification (PM),,--- LUNCH ---,,"[L:108] Solar Power Technologies Lab (AmK,AB)","[L:108] Solar Power Technologies Lab (AmK,AB)"
+41,diploma-EE-3-A,Fri,--- OFF ---,,,[T] Solar Power Technologies (AmK),[T] Industrial Automation & Control  (SA),--- LUNCH ---,,,
 
-42,diploma-CST-3-A,Mon,--- OFF ---,[T] IOT (BPT),[T] Advanced Computer Network (DR),[T] Computer Ghraphics (TKO),[T] Theory of Automata (SDM),--- LUNCH ---,,,
-42,diploma-CST-3-A,Tue,--- OFF ---,[T] Computer Ghraphics (TKO),[T] Theory of Automata (SDM),[T] Microcontroller and Microprocessor (SR),[T] Advanced Computer Network (DR),--- LUNCH ---,,,
-42,diploma-CST-3-A,Wed,--- OFF ---,[T] Microcontroller and Microprocessor (SR),[T] Computer Ghraphics (TKO),[T] Advanced Computer Network (DR),[T] IOT (BPT),--- LUNCH ---,,,
-42,diploma-CST-3-A,Thu,--- OFF ---,[T] Advanced Computer Network (DR),[T] IOT (BPT),[T] Theory of Automata (SDM),[T] Computer Ghraphics (TKO),--- LUNCH ---,,,
-42,diploma-CST-3-A,Fri,--- OFF ---,[T] Theory of Automata (SDM),,[T] IOT (BPT),[T] Microcontroller and Microprocessor (SR),--- LUNCH ---,,,
+42,diploma-CST-3-A,Mon,--- OFF ---,[T] IOT (BPT),[T] Advanced Computer Network (DR),[T] Theory of Automata (SDM),[T] Computer Ghraphics (TKO),--- LUNCH ---,,,
+42,diploma-CST-3-A,Tue,--- OFF ---,[T] Microcontroller and Microprocessor (SR),[T] Computer Ghraphics (TKO),[T] Advanced Computer Network (DR),[T] Theory of Automata (SDM),--- LUNCH ---,,,
+42,diploma-CST-3-A,Wed,--- OFF ---,[T] Theory of Automata (SDM),,[T] Computer Ghraphics (TKO),[T] IOT (BPT),--- LUNCH ---,,,
+42,diploma-CST-3-A,Thu,--- OFF ---,[T] Computer Ghraphics (TKO),[T] IOT (BPT),[T] Microcontroller and Microprocessor (SR),[T] Advanced Computer Network (DR),--- LUNCH ---,,,
+42,diploma-CST-3-A,Fri,--- OFF ---,[T] Advanced Computer Network (DR),[T] Theory of Automata (SDM),[T] IOT (BPT),[T] Microcontroller and Microprocessor (SR),--- LUNCH ---,,,
 
